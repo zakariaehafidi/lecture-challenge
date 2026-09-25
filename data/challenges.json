@@ -1,0 +1,1234 @@
+[
+  {
+    "id": 1,
+    "text": "Chanter une chanson connue en remplaçant toutes les paroles par « miaou »."
+  },
+  {
+    "id": 2,
+    "text": "Faire 30 squats en disant « j'aime lire » à chaque descente."
+  },
+  {
+    "id": 3,
+    "text": "Présenter la météo de demain comme un vrai présentateur télé, pendant 1 minute."
+  },
+  {
+    "id": 4,
+    "text": "Imiter 5 animaux différents à la suite, sans rire."
+  },
+  {
+    "id": 5,
+    "text": "Faire un défilé de mode dans le salon avec une tenue composée uniquement de choses de la cuisine (tablier, torchon, gants…)."
+  },
+  {
+    "id": 6,
+    "text": "Réciter l'alphabet à l'envers le plus vite possible."
+  },
+  {
+    "id": 7,
+    "text": "Danser 30 secondes sur une musique choisie par l'autre."
+  },
+  {
+    "id": 8,
+    "text": "Faire une publicité de 30 secondes pour un objet banal (une cuillère, une chaussette…)."
+  },
+  {
+    "id": 9,
+    "text": "Parler avec un accent italien pendant 1 minute pour raconter ta journée."
+  },
+  {
+    "id": 10,
+    "text": "Faire 20 sauts en étoile en criant un mot différent à chaque saut."
+  },
+  {
+    "id": 11,
+    "text": "Lire une page de ton livre avec une voix de dessin animé."
+  },
+  {
+    "id": 12,
+    "text": "Te dessiner une moustache au feutre effaçable (ou au maquillage) et faire un discours sérieux de 30 secondes."
+  },
+  {
+    "id": 13,
+    "text": "Faire tenir une cuillère sur ton nez pendant 10 secondes."
+  },
+  {
+    "id": 14,
+    "text": "Chanter « joyeux anniversaire » à un objet de la maison."
+  },
+  {
+    "id": 15,
+    "text": "Mimer un métier pendant 30 secondes : l'autre doit deviner lequel."
+  },
+  {
+    "id": 16,
+    "text": "Faire une interview de toi-même en changeant de voix pour chaque rôle."
+  },
+  {
+    "id": 17,
+    "text": "Marcher comme un pingouin d'une pièce à l'autre."
+  },
+  {
+    "id": 18,
+    "text": "Faire le tour de la maison comme un guide touristique, en présentant chaque pièce."
+  },
+  {
+    "id": 19,
+    "text": "Dire 3 virelangues à la suite sans te tromper (ex. : « les chaussettes de l'archiduchesse… »)."
+  },
+  {
+    "id": 20,
+    "text": "Tenir la position de la planche pendant 45 secondes en chantant."
+  },
+  {
+    "id": 21,
+    "text": "Raconter ton petit-déjeuner comme un commentateur de match de foot."
+  },
+  {
+    "id": 22,
+    "text": "Mettre tes chaussettes sur les mains et essayer d'ouvrir une bouteille."
+  },
+  {
+    "id": 23,
+    "text": "Faire une déclaration d'amour dramatique à ton plat préféré."
+  },
+  {
+    "id": 24,
+    "text": "Imiter un membre de la famille (gentiment !) pendant 30 secondes."
+  },
+  {
+    "id": 25,
+    "text": "Faire 10 pompes en comptant dans une autre langue (arabe, anglais…)."
+  },
+  {
+    "id": 26,
+    "text": "Chanter le refrain de ta chanson préférée avec une voix de souris."
+  },
+  {
+    "id": 27,
+    "text": "Faire une chorégraphie de 20 secondes inventée sur le moment."
+  },
+  {
+    "id": 28,
+    "text": "Expliquer comment faire des pâtes comme si c'était une opération chirurgicale très délicate."
+  },
+  {
+    "id": 29,
+    "text": "Te coiffer de la façon la plus bizarre possible et la présenter comme une nouvelle mode."
+  },
+  {
+    "id": 30,
+    "text": "Faire un tour de magie (même raté) avec une présentation très sérieuse."
+  },
+  {
+    "id": 31,
+    "text": "Parler comme un robot pendant 1 minute."
+  },
+  {
+    "id": 32,
+    "text": "Jongler avec 2 ou 3 objets doux (chaussettes roulées, peluches) pendant 20 secondes."
+  },
+  {
+    "id": 33,
+    "text": "Résumer le livre que tu lis en seulement 5 mots, puis en mimes."
+  },
+  {
+    "id": 34,
+    "text": "Chanter « Au clair de la lune » avec une voix d'opéra."
+  },
+  {
+    "id": 35,
+    "text": "Faire semblant d'être un chef cuisinier star qui prépare… une tartine."
+  },
+  {
+    "id": 36,
+    "text": "Tenir en équilibre sur un pied les yeux fermés pendant 20 secondes."
+  },
+  {
+    "id": 37,
+    "text": "Faire une battle de grimaces avec ton reflet dans le miroir."
+  },
+  {
+    "id": 38,
+    "text": "Présenter un « journal télévisé » avec 3 fausses infos drôles sur la famille."
+  },
+  {
+    "id": 39,
+    "text": "Faire 15 burpees en faisant un bruit d'animal à chaque saut."
+  },
+  {
+    "id": 40,
+    "text": "Essayer de siffler une chanson, même si tu ne sais pas siffler."
+  },
+  {
+    "id": 41,
+    "text": "Écrire ton prénom en l'air avec tes fesses (en dansant)."
+  },
+  {
+    "id": 42,
+    "text": "Faire un discours de remerciement comme si tu gagnais un Oscar… pour avoir fait la vaisselle."
+  },
+  {
+    "id": 43,
+    "text": "Parler uniquement en chuchotant de façon mystérieuse pendant 1 minute."
+  },
+  {
+    "id": 44,
+    "text": "Imiter un bébé qui découvre un citron (sans en manger)."
+  },
+  {
+    "id": 45,
+    "text": "Construire la tour la plus haute possible avec des objets de ta chambre en 1 minute."
+  },
+  {
+    "id": 46,
+    "text": "Raconter une histoire de 1 minute où chaque phrase commence par la même lettre."
+  },
+  {
+    "id": 47,
+    "text": "Faire une séance de sport de 1 minute en mode coach ultra motivé."
+  },
+  {
+    "id": 48,
+    "text": "Chanter une berceuse à ton téléphone."
+  },
+  {
+    "id": 49,
+    "text": "Lire 5 lignes de ton livre en articulant de façon exagérée, comme au théâtre."
+  },
+  {
+    "id": 50,
+    "text": "Faire la « danse de la victoire » la plus ridicule possible pendant 20 secondes."
+  },
+  {
+    "id": 51,
+    "text": "Présenter ta chaussette préférée pendant 1 minute comme si c'était un trésor de musée."
+  },
+  {
+    "id": 52,
+    "text": "Chanter une comptine d'enfant avec une voix de rockeur."
+  },
+  {
+    "id": 53,
+    "text": "Faire 25 fentes en racontant une blague."
+  },
+  {
+    "id": 54,
+    "text": "Imiter un GPS qui guide quelqu'un de ta chambre à la cuisine."
+  },
+  {
+    "id": 55,
+    "text": "Raconter le dernier film que tu as vu en 30 secondes, en accéléré."
+  },
+  {
+    "id": 56,
+    "text": "Faire un « unboxing » très enthousiaste d'un objet banal (une pomme, un rouleau d'essuie-tout…)."
+  },
+  {
+    "id": 57,
+    "text": "Parler comme un pirate pendant 1 minute."
+  },
+  {
+    "id": 58,
+    "text": "Faire un tutoriel maquillage… sur une orange."
+  },
+  {
+    "id": 59,
+    "text": "Chanter ton prénom sur l'air de 5 chansons différentes."
+  },
+  {
+    "id": 60,
+    "text": "Ramper comme une chenille d'un bout à l'autre du salon."
+  },
+  {
+    "id": 61,
+    "text": "Faire une critique gastronomique très sérieuse d'un verre d'eau."
+  },
+  {
+    "id": 62,
+    "text": "Marcher en crabe sur 10 mètres."
+  },
+  {
+    "id": 63,
+    "text": "Déclamer une tirade de 30 secondes comme un acteur de tragédie, sur le thème du lundi matin."
+  },
+  {
+    "id": 64,
+    "text": "Faire l'interview d'une plante de la maison."
+  },
+  {
+    "id": 65,
+    "text": "Imiter un instrument de musique avec ta bouche pendant 20 secondes."
+  },
+  {
+    "id": 66,
+    "text": "Tenir la chaise contre le mur pendant 40 secondes en souriant."
+  },
+  {
+    "id": 67,
+    "text": "Expliquer les règles d'un jeu inventé avec une cuillère et un bouchon."
+  },
+  {
+    "id": 68,
+    "text": "Faire un karaoké d'une chanson de ton enfance."
+  },
+  {
+    "id": 69,
+    "text": "Parler au ralenti pendant 1 minute, comme dans un film."
+  },
+  {
+    "id": 70,
+    "text": "Faire semblant d'être un youtubeur qui teste un nouveau… crayon."
+  },
+  {
+    "id": 71,
+    "text": "Faire 30 montées de genoux en criant « Allez, allez ! »."
+  },
+  {
+    "id": 72,
+    "text": "Imiter un chat qui a très peur d'un concombre."
+  },
+  {
+    "id": 73,
+    "text": "Écrire un poème de 4 vers sur ton oreiller et le déclamer."
+  },
+  {
+    "id": 74,
+    "text": "Jouer une scène de film célèbre avec des peluches ou des objets."
+  },
+  {
+    "id": 75,
+    "text": "Faire la voix off d'un documentaire animalier sur toi-même en train de manger."
+  },
+  {
+    "id": 76,
+    "text": "Faire 20 abdos en disant un compliment à chaque fois."
+  },
+  {
+    "id": 77,
+    "text": "Dire « bonjour » dans 5 langues avec un accent exagéré pour chacune."
+  },
+  {
+    "id": 78,
+    "text": "Fabriquer un chapeau en papier et le porter pour lire 5 lignes de ton livre."
+  },
+  {
+    "id": 79,
+    "text": "Mimer une journée entière de ta vie en 30 secondes."
+  },
+  {
+    "id": 80,
+    "text": "Faire un rap de 4 phrases sur la lecture."
+  },
+  {
+    "id": 81,
+    "text": "Lancer une chaussette roulée dans un seau à 3 mètres et marquer 3 fois."
+  },
+  {
+    "id": 82,
+    "text": "Commenter une course entre deux gouttes d'eau sur une vitre (ou deux objets) comme un match."
+  },
+  {
+    "id": 83,
+    "text": "Parler uniquement avec des questions pendant 1 minute."
+  },
+  {
+    "id": 84,
+    "text": "Imiter un personnage de dessin animé sans dire lequel : l'autre doit deviner."
+  },
+  {
+    "id": 85,
+    "text": "Présenter le contenu de ton frigo comme une influenceuse mode."
+  },
+  {
+    "id": 86,
+    "text": "Traverser toute la maison à cloche-pied."
+  },
+  {
+    "id": 87,
+    "text": "Chanter une chanson dans une langue inventée."
+  },
+  {
+    "id": 88,
+    "text": "Faire un discours de président pour annoncer une nouvelle loi : « le dessert est obligatoire »."
+  },
+  {
+    "id": 89,
+    "text": "Faire 30 secondes de corde à sauter (même imaginaire)."
+  },
+  {
+    "id": 90,
+    "text": "Faire une chorégraphie avec seulement les mains, sur une musique."
+  },
+  {
+    "id": 91,
+    "text": "Lire une étiquette de produit comme un poème très émouvant."
+  },
+  {
+    "id": 92,
+    "text": "Jouer un sketch de 30 secondes : toi qui rates ton réveil."
+  },
+  {
+    "id": 93,
+    "text": "Présenter un talk-show avec un invité imaginaire."
+  },
+  {
+    "id": 94,
+    "text": "Dessiner un animal les yeux fermés et le présenter comme une œuvre de musée."
+  },
+  {
+    "id": 95,
+    "text": "Faire une dégustation à l'aveugle de 3 aliments que tu aimes et deviner ce que c'est."
+  },
+  {
+    "id": 96,
+    "text": "Répéter « un chasseur sachant chasser sans son chien » 5 fois très vite."
+  },
+  {
+    "id": 97,
+    "text": "Inventer le cri de guerre le plus drôle possible pour ta prochaine séance de lecture."
+  },
+  {
+    "id": 98,
+    "text": "Raconter une histoire d'horreur… sur un yaourt périmé."
+  },
+  {
+    "id": 99,
+    "text": "Faire 15 pompes contre un mur en chantant une chanson de Noël."
+  },
+  {
+    "id": 100,
+    "text": "Faire une vidéo « ASMR » de 30 secondes en chuchotant et en tapotant sur ton livre."
+  },
+  {
+    "id": 101,
+    "text": "Imiter un serveur très chic qui présente le menu du jour (ce qu'il y a dans le frigo)."
+  },
+  {
+    "id": 102,
+    "text": "Faire une battle de danse contre ton ombre."
+  },
+  {
+    "id": 103,
+    "text": "Faire la statue pendant 30 secondes, puis bouger d'un coup."
+  },
+  {
+    "id": 104,
+    "text": "Chanter l'alphabet en mode opéra."
+  },
+  {
+    "id": 105,
+    "text": "Raconter ta journée en seulement 10 mots."
+  },
+  {
+    "id": 106,
+    "text": "Faire un défilé avec 3 tenues différentes en 1 minute."
+  },
+  {
+    "id": 107,
+    "text": "Expliquer comment lacer ses chaussures comme un professeur d'université."
+  },
+  {
+    "id": 108,
+    "text": "Faire 20 jumping jacks en comptant à rebours de 20 à 1."
+  },
+  {
+    "id": 109,
+    "text": "Mimer un sport pendant 20 secondes, sans ballon ni équipement."
+  },
+  {
+    "id": 110,
+    "text": "Présenter la « météo de l'humeur » de chaque membre de la famille."
+  },
+  {
+    "id": 111,
+    "text": "Chanter une chanson en te pinçant le nez."
+  },
+  {
+    "id": 112,
+    "text": "Faire un bonhomme avec des fruits ou des légumes et le présenter."
+  },
+  {
+    "id": 113,
+    "text": "Parler de toi à la troisième personne pendant 1 minute."
+  },
+  {
+    "id": 114,
+    "text": "Faire un tuto « comment bien s'asseoir sur une chaise »."
+  },
+  {
+    "id": 115,
+    "text": "Imiter ta propre voix quand tu étais petit(e)."
+  },
+  {
+    "id": 116,
+    "text": "Inventer un slogan pour la lecture et le crier fièrement."
+  },
+  {
+    "id": 117,
+    "text": "Faire le tour du salon en marchant sur les talons."
+  },
+  {
+    "id": 118,
+    "text": "Annoncer le dîner comme une annonce d'aéroport."
+  },
+  {
+    "id": 119,
+    "text": "Faire une bande-annonce de film pour ton livre actuel."
+  },
+  {
+    "id": 120,
+    "text": "Tenir 30 secondes en équilibre avec un livre sur la tête."
+  },
+  {
+    "id": 121,
+    "text": "Inventer une chanson sur ton petit-déjeuner."
+  },
+  {
+    "id": 122,
+    "text": "Parler avec un accent québécois pendant 1 minute."
+  },
+  {
+    "id": 123,
+    "text": "Chanter une chanson avec un balai comme micro, comme dans un clip."
+  },
+  {
+    "id": 124,
+    "text": "Citer 10 fruits en 10 secondes."
+  },
+  {
+    "id": 125,
+    "text": "Imiter une poule pendant 20 secondes, avec les bras."
+  },
+  {
+    "id": 126,
+    "text": "Faire un « avant/après » de ta coiffure la plus drôle."
+  },
+  {
+    "id": 127,
+    "text": "Faire 40 secondes de gainage latéral (20 de chaque côté)."
+  },
+  {
+    "id": 128,
+    "text": "Dire 5 choses positives sur l'autre, face caméra."
+  },
+  {
+    "id": 129,
+    "text": "Faire semblant d'être un prof qui fait l'appel d'une classe de peluches."
+  },
+  {
+    "id": 130,
+    "text": "Raconter une blague nulle et rire très fort tout(e) seul(e)."
+  },
+  {
+    "id": 131,
+    "text": "Présenter un tour du monde en 30 secondes avec une carte dessinée à la main."
+  },
+  {
+    "id": 132,
+    "text": "Chanter une chanson en remplaçant chaque mot par « la »."
+  },
+  {
+    "id": 133,
+    "text": "Te présenter comme si tu passais un entretien pour devenir super-héros."
+  },
+  {
+    "id": 134,
+    "text": "Faire 25 squats en tenant ton livre au-dessus de la tête."
+  },
+  {
+    "id": 135,
+    "text": "Jouer un sketch où tu téléphones avec une banane."
+  },
+  {
+    "id": 136,
+    "text": "Réciter une table de multiplication en rappant."
+  },
+  {
+    "id": 137,
+    "text": "Parler uniquement en rimes pendant 1 minute."
+  },
+  {
+    "id": 138,
+    "text": "Fixer ton reflet dans le miroir pendant 30 secondes sans rire."
+  },
+  {
+    "id": 139,
+    "text": "Reproduire la pose d'un tableau célèbre avec des objets de la maison."
+  },
+  {
+    "id": 140,
+    "text": "Annoncer un match de boxe entre ta brosse à dents et ton peigne."
+  },
+  {
+    "id": 141,
+    "text": "Chanter « Frère Jacques » en alternant une voix grave et une voix aiguë."
+  },
+  {
+    "id": 142,
+    "text": "Faire une démonstration de yoga très sérieuse… avec des poses inventées."
+  },
+  {
+    "id": 143,
+    "text": "Commenter une course de chevaux imaginaire entre tes deux chaussons."
+  },
+  {
+    "id": 144,
+    "text": "Dire une phrase entière à l'envers : « revoir au, jour bon »."
+  },
+  {
+    "id": 145,
+    "text": "Faire l'inventaire très dramatique de ton sac."
+  },
+  {
+    "id": 146,
+    "text": "Faire 20 rotations des bras en faisant le bruit d'un hélicoptère."
+  },
+  {
+    "id": 147,
+    "text": "Jouer un solo de guitare imaginaire pendant 30 secondes."
+  },
+  {
+    "id": 148,
+    "text": "Dire un proverbe et l'expliquer de façon complètement fausse."
+  },
+  {
+    "id": 149,
+    "text": "Préparer un gâteau imaginaire en mimant toutes les étapes."
+  },
+  {
+    "id": 150,
+    "text": "Parler comme un vieux sage pendant 1 minute pour donner des conseils de lecture."
+  },
+  {
+    "id": 151,
+    "text": "Faire une vidéo « réveil de star », comme dans un film."
+  },
+  {
+    "id": 152,
+    "text": "Faire le tour de la table en sautillant 5 fois."
+  },
+  {
+    "id": 153,
+    "text": "Inventer un nouveau mot et expliquer sa définition."
+  },
+  {
+    "id": 154,
+    "text": "Chanter une berceuse à un vieil objet."
+  },
+  {
+    "id": 155,
+    "text": "Faire une danse du robot pendant 30 secondes."
+  },
+  {
+    "id": 156,
+    "text": "Présenter un objet mystère en 3 indices : l'autre doit deviner."
+  },
+  {
+    "id": 157,
+    "text": "Faire 10 squats avec un sac à dos rempli de livres."
+  },
+  {
+    "id": 158,
+    "text": "Te complimenter dans le miroir comme un coach sportif."
+  },
+  {
+    "id": 159,
+    "text": "Raconter une histoire de 30 secondes uniquement avec des bruits, sans mots."
+  },
+  {
+    "id": 160,
+    "text": "Cuisiner un plat imaginaire très bizarre, en mimant, comme dans une émission."
+  },
+  {
+    "id": 161,
+    "text": "Imiter le bruit d'une moto, d'un avion et d'un train à la suite."
+  },
+  {
+    "id": 162,
+    "text": "Citer 10 pays en moins de 15 secondes."
+  },
+  {
+    "id": 163,
+    "text": "Prononcer un serment solennel : « Moi, [prénom], je jure de lire mes 20 pages »."
+  },
+  {
+    "id": 164,
+    "text": "Faire une marche militaire comique dans le couloir."
+  },
+  {
+    "id": 165,
+    "text": "Chanter une chanson en chuchotant, mais avec beaucoup d'émotion."
+  },
+  {
+    "id": 166,
+    "text": "Te brosser les dents en faisant le flamant rose (sur un pied)."
+  },
+  {
+    "id": 167,
+    "text": "Porter une passoire comme un casque et faire un discours de chevalier."
+  },
+  {
+    "id": 168,
+    "text": "Faire semblant de parler au téléphone avec une célébrité imaginaire."
+  },
+  {
+    "id": 169,
+    "text": "Répondre à 5 questions envoyées par l'autre uniquement par des mimiques exagérées."
+  },
+  {
+    "id": 170,
+    "text": "Jouer un sketch : « le jour où mon livre m'a parlé »."
+  },
+  {
+    "id": 171,
+    "text": "Défiler comme un mannequin sur un podium, dans le couloir."
+  },
+  {
+    "id": 172,
+    "text": "Boxer dans le vide pendant 30 secondes en criant « lecture ! »."
+  },
+  {
+    "id": 173,
+    "text": "Recréer une photo de toi enfant."
+  },
+  {
+    "id": 174,
+    "text": "Inventer un tour de magie avec un objet de la maison."
+  },
+  {
+    "id": 175,
+    "text": "Chanter le générique d'un dessin animé de ton enfance."
+  },
+  {
+    "id": 176,
+    "text": "Parler à une cuillère comme si c'était ta meilleure amie."
+  },
+  {
+    "id": 177,
+    "text": "Tenir un énorme sourire pendant 30 secondes."
+  },
+  {
+    "id": 178,
+    "text": "Faire l'ange dans la neige… sur le tapis."
+  },
+  {
+    "id": 179,
+    "text": "Faire la ola tout(e) seul(e) 10 fois de suite."
+  },
+  {
+    "id": 180,
+    "text": "Lire une page de ton livre avec une voix de méchant de film."
+  },
+  {
+    "id": 181,
+    "text": "Te lever et t'accroupir 20 fois en chantant."
+  },
+  {
+    "id": 182,
+    "text": "Vendre ta chambre comme une maison de luxe, façon agent immobilier."
+  },
+  {
+    "id": 183,
+    "text": "Imiter un DJ avec des casseroles."
+  },
+  {
+    "id": 184,
+    "text": "Inventer une danse traditionnelle."
+  },
+  {
+    "id": 185,
+    "text": "Donner la recette d'un plat en parlant comme un robot."
+  },
+  {
+    "id": 186,
+    "text": "Ranger ton bureau en 1 minute chrono."
+  },
+  {
+    "id": 187,
+    "text": "Faire un discours d'encouragement à ton livre."
+  },
+  {
+    "id": 188,
+    "text": "Faire 3 grimaces différentes et donner un nom à chacune."
+  },
+  {
+    "id": 189,
+    "text": "Faire semblant de faire des claquettes pendant 20 secondes."
+  },
+  {
+    "id": 190,
+    "text": "Mimer 3 émotions : l'autre doit les deviner."
+  },
+  {
+    "id": 191,
+    "text": "Faire un tuto « comment faire un câlin à un coussin »."
+  },
+  {
+    "id": 192,
+    "text": "Parler avec la voix de ton personnage préféré de ton livre."
+  },
+  {
+    "id": 193,
+    "text": "Chanter une chanson en tapant le rythme sur une table."
+  },
+  {
+    "id": 194,
+    "text": "Faire le tour du salon avec un oreiller en équilibre sur la tête."
+  },
+  {
+    "id": 195,
+    "text": "Inventer une chorégraphie pour ranger tes chaussures."
+  },
+  {
+    "id": 196,
+    "text": "Faire la fausse bande-annonce de ta semaine."
+  },
+  {
+    "id": 197,
+    "text": "Marcher sur place pendant 30 secondes comme dans un défilé militaire."
+  },
+  {
+    "id": 198,
+    "text": "Présenter tes 3 objets préférés comme dans un musée."
+  },
+  {
+    "id": 199,
+    "text": "Imiter une star du télé-achat qui vend un stylo."
+  },
+  {
+    "id": 200,
+    "text": "Faire 20 secondes de beatbox."
+  },
+  {
+    "id": 201,
+    "text": "Faire un compliment à 3 objets de la maison."
+  },
+  {
+    "id": 202,
+    "text": "Faire un duel de rap contre toi-même, avec deux voix."
+  },
+  {
+    "id": 203,
+    "text": "Lire un paragraphe de ton livre avec un accent britannique."
+  },
+  {
+    "id": 204,
+    "text": "Faire un reportage en direct de la salle de bain comme un journaliste."
+  },
+  {
+    "id": 205,
+    "text": "Faire 15 squats en tenant un oreiller au-dessus de la tête."
+  },
+  {
+    "id": 206,
+    "text": "Chanter en duo avec une peluche (tu fais les deux voix)."
+  },
+  {
+    "id": 207,
+    "text": "Découvrir des objets de la maison comme un extraterrestre qui arrive sur Terre."
+  },
+  {
+    "id": 208,
+    "text": "Écrire ton prénom avec des objets de la maison."
+  },
+  {
+    "id": 209,
+    "text": "Danser en marchant comme un canard."
+  },
+  {
+    "id": 210,
+    "text": "Faire la visite guidée de ton frigo comme un guide de musée."
+  },
+  {
+    "id": 211,
+    "text": "Faire 10 burpees version douce (sans saut) en riant."
+  },
+  {
+    "id": 212,
+    "text": "Raconter ton rêve le plus bizarre avec des gestes."
+  },
+  {
+    "id": 213,
+    "text": "Parler avec un accent belge pendant 1 minute."
+  },
+  {
+    "id": 214,
+    "text": "Construire une tour de gobelets et la faire tomber d'un souffle."
+  },
+  {
+    "id": 215,
+    "text": "Faire un exposé imaginaire : « pourquoi les chaussettes disparaissent »."
+  },
+  {
+    "id": 216,
+    "text": "Imiter un présentateur de jeu télévisé qui annonce que tu as gagné."
+  },
+  {
+    "id": 217,
+    "text": "Faire danser tes sourcils sur une musique pendant 20 secondes."
+  },
+  {
+    "id": 218,
+    "text": "Faire 30 secondes de mouvements de karaté dans le vide."
+  },
+  {
+    "id": 219,
+    "text": "Jouer un sketch : un client très difficile au restaurant."
+  },
+  {
+    "id": 220,
+    "text": "Répéter une phrase avec 5 émotions différentes (joie, colère, tristesse, peur, surprise)."
+  },
+  {
+    "id": 221,
+    "text": "Danser avec un balai comme partenaire."
+  },
+  {
+    "id": 222,
+    "text": "Faire un documentaire de 30 secondes sur la vie secrète de tes chaussons."
+  },
+  {
+    "id": 223,
+    "text": "Faire un compliment à la caméra en 3 langues."
+  },
+  {
+    "id": 224,
+    "text": "Chanter une chanson pendant des pompes contre le mur."
+  },
+  {
+    "id": 225,
+    "text": "Défiler en super-héros avec une serviette en guise de cape."
+  },
+  {
+    "id": 226,
+    "text": "Imiter un robot aspirateur qui se cogne partout (doucement)."
+  },
+  {
+    "id": 227,
+    "text": "Faire 20 abdos « bicyclette »."
+  },
+  {
+    "id": 228,
+    "text": "Raconter un souvenir drôle avec l'autre."
+  },
+  {
+    "id": 229,
+    "text": "Faire un tuto pour plier une serviette en forme d'animal."
+  },
+  {
+    "id": 230,
+    "text": "Dessiner l'autre en 30 secondes et montrer le résultat."
+  },
+  {
+    "id": 231,
+    "text": "Inventer une chanson de 4 phrases pour souhaiter bonne nuit à ta famille."
+  },
+  {
+    "id": 232,
+    "text": "Mimer que tu es coincé(e) dans une boîte invisible."
+  },
+  {
+    "id": 233,
+    "text": "Parler de plus en plus vite pendant 30 secondes."
+  },
+  {
+    "id": 234,
+    "text": "Faire un saut de joie filmé au ralenti."
+  },
+  {
+    "id": 235,
+    "text": "Chanter les prénoms de tous les membres de la famille."
+  },
+  {
+    "id": 236,
+    "text": "Annoncer une pluie de bonbons comme un présentateur météo."
+  },
+  {
+    "id": 237,
+    "text": "Commenter un marathon imaginaire de 20 secondes dont tu es le coureur."
+  },
+  {
+    "id": 238,
+    "text": "Essayer le moonwalk pendant 10 secondes."
+  },
+  {
+    "id": 239,
+    "text": "Présenter ton livre comme un produit de télé-achat."
+  },
+  {
+    "id": 240,
+    "text": "Faire 30 secondes d'étirements en racontant ta journée."
+  },
+  {
+    "id": 241,
+    "text": "Faire l'éloge d'un vieux stylo qui ne marche plus."
+  },
+  {
+    "id": 242,
+    "text": "Faire semblant de nager dans le salon."
+  },
+  {
+    "id": 243,
+    "text": "Faire une réaction ultra exagérée en goûtant un aliment normal."
+  },
+  {
+    "id": 244,
+    "text": "Chanter une chanson connue en chuchotant, comme dans une bibliothèque."
+  },
+  {
+    "id": 245,
+    "text": "Annoncer l'heure de la lecture comme une annonce de gare."
+  },
+  {
+    "id": 246,
+    "text": "Inventer le cri d'un animal qui n'existe pas."
+  },
+  {
+    "id": 247,
+    "text": "Faire 25 montées sur la pointe des pieds en chantant."
+  },
+  {
+    "id": 248,
+    "text": "Déclarer la guerre (pour rire) à la poussière."
+  },
+  {
+    "id": 249,
+    "text": "Te déguiser avec 3 objets et inventer un personnage."
+  },
+  {
+    "id": 250,
+    "text": "Raconter une recette de famille comme une émission culinaire."
+  },
+  {
+    "id": 251,
+    "text": "Faire 10 squats en imitant un ballon qui se dégonfle."
+  },
+  {
+    "id": 252,
+    "text": "Parler comme un GPS perdu pendant 30 secondes."
+  },
+  {
+    "id": 253,
+    "text": "Faire un spectacle de marionnettes avec des chaussettes."
+  },
+  {
+    "id": 254,
+    "text": "Imiter le bruit de la pluie avec tes mains."
+  },
+  {
+    "id": 255,
+    "text": "Présenter ton animal de compagnie imaginaire."
+  },
+  {
+    "id": 256,
+    "text": "Interviewer un fruit juste avant de le manger."
+  },
+  {
+    "id": 257,
+    "text": "Essayer de chanter une chanson à l'envers."
+  },
+  {
+    "id": 258,
+    "text": "Danser avec des lunettes de soleil à l'intérieur."
+  },
+  {
+    "id": 259,
+    "text": "Faire le bilan de ta semaine comme un footballeur après un match."
+  },
+  {
+    "id": 260,
+    "text": "Tenir une note de musique le plus longtemps possible."
+  },
+  {
+    "id": 261,
+    "text": "Danser 30 secondes assis(e) sur une chaise."
+  },
+  {
+    "id": 262,
+    "text": "Mimer un repas dans un restaurant très chic."
+  },
+  {
+    "id": 263,
+    "text": "Inventer une nouvelle danse et lui donner un nom."
+  },
+  {
+    "id": 264,
+    "text": "Organiser une chasse au trésor dans ta chambre pour trouver un objet."
+  },
+  {
+    "id": 265,
+    "text": "Faire semblant d'être une plante qui pousse, du sol jusqu'à debout."
+  },
+  {
+    "id": 266,
+    "text": "Chanter les jours de la semaine comme une star."
+  },
+  {
+    "id": 267,
+    "text": "Jouer un sketch : le livre qui refuse d'être lu."
+  },
+  {
+    "id": 268,
+    "text": "Faire parler ton téléphone : que dirait-il de toi ?"
+  },
+  {
+    "id": 269,
+    "text": "Faire 20 rotations des épaules en chantant."
+  },
+  {
+    "id": 270,
+    "text": "Présenter une émission de cuisine pour préparer un verre d'eau."
+  },
+  {
+    "id": 271,
+    "text": "Envoyer des bisous volants à la caméra dans toutes les directions."
+  },
+  {
+    "id": 272,
+    "text": "Imiter quelqu'un qui marche contre un vent très fort."
+  },
+  {
+    "id": 273,
+    "text": "Faire le top 5 de tes goûters préférés avec roulement de tambour."
+  },
+  {
+    "id": 274,
+    "text": "Parler avec une voix grave de méchant pendant 1 minute."
+  },
+  {
+    "id": 275,
+    "text": "Faire 20 secondes de hula hoop imaginaire."
+  },
+  {
+    "id": 276,
+    "text": "Inventer un slogan pour ta famille."
+  },
+  {
+    "id": 277,
+    "text": "Présenter la météo du week-end en mimant chaque temps."
+  },
+  {
+    "id": 278,
+    "text": "Faire le tour de la pièce avec un livre en équilibre sur la main."
+  },
+  {
+    "id": 279,
+    "text": "Chanter une comptine avec un accent anglais."
+  },
+  {
+    "id": 280,
+    "text": "Imiter un astronaute qui marche sur la Lune."
+  },
+  {
+    "id": 281,
+    "text": "Présenter ton rituel de lecture de façon très solennelle."
+  },
+  {
+    "id": 282,
+    "text": "Faire 15 pompes sur les genoux en disant « lire, c'est la vie »."
+  },
+  {
+    "id": 283,
+    "text": "Dédicacer une chanson à l'autre comme un animateur radio."
+  },
+  {
+    "id": 284,
+    "text": "Faire un discours pour remercier ton lit."
+  },
+  {
+    "id": 285,
+    "text": "Faire danser tes doigts sur une musique comme des petits danseurs."
+  },
+  {
+    "id": 286,
+    "text": "Raconter une histoire avec 5 mots donnés par l'autre."
+  },
+  {
+    "id": 287,
+    "text": "Combattre un monstre (un coussin) comme un chevalier."
+  },
+  {
+    "id": 288,
+    "text": "Chanter une chanson en changeant de voix à chaque phrase."
+  },
+  {
+    "id": 289,
+    "text": "Faire un speed-dating avec 3 objets de la cuisine."
+  },
+  {
+    "id": 290,
+    "text": "Mimer le mot « lecture » sans parler."
+  },
+  {
+    "id": 291,
+    "text": "Faire 30 secondes de pas chassés dans le salon."
+  },
+  {
+    "id": 292,
+    "text": "Faire la pub d'une invention complètement absurde."
+  },
+  {
+    "id": 293,
+    "text": "Imiter le bruit d'une foule qui applaudit."
+  },
+  {
+    "id": 294,
+    "text": "Faire une déclaration d'amitié à ta brosse à cheveux."
+  },
+  {
+    "id": 295,
+    "text": "Faire un tour du salon comme une voiture de course, avec les bruitages."
+  },
+  {
+    "id": 296,
+    "text": "Raconter ta nuit comme un film d'aventure."
+  },
+  {
+    "id": 297,
+    "text": "Faire 10 squats avec un gobelet en plastique vide sur la tête."
+  },
+  {
+    "id": 298,
+    "text": "Lire une page de « journal intime » très dramatique sur ta journée."
+  },
+  {
+    "id": 299,
+    "text": "Inventer un chant de supporter pour encourager l'autre à lire."
+  },
+  {
+    "id": 300,
+    "text": "Diriger un orchestre invisible comme un chef d'orchestre."
+  },
+  {
+    "id": 301,
+    "text": "Présenter la météo dans une langue inventée."
+  },
+  {
+    "id": 302,
+    "text": "Danser 20 secondes au ralenti."
+  },
+  {
+    "id": 303,
+    "text": "Faire ton autoportrait avec des objets de la cuisine."
+  },
+  {
+    "id": 304,
+    "text": "Chanter une page de ton livre au lieu de la lire."
+  },
+  {
+    "id": 305,
+    "text": "Interviewer ton reflet dans le miroir comme un journaliste."
+  },
+  {
+    "id": 306,
+    "text": "Courir sur place 30 secondes en commentant comme aux Jeux olympiques."
+  },
+  {
+    "id": 307,
+    "text": "Inventer une devinette et la poser à la caméra."
+  },
+  {
+    "id": 308,
+    "text": "Faire une révérence royale et un discours de reine ou de roi de la lecture."
+  }
+]

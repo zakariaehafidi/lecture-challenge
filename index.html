@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Lecture Challenge</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Shantell+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #FCFCF9;
+  --line: #DCE6F4;
+  --line-strong: #B5C9E8;
+  --margin: #E0475B;
+  --ink: #1B2F6E;
+  --ink-soft: #56679A;
+  --hl: #FFEE58;
+  --ok: #1E7F53;
+  --miss: #BF3348;
+  --wait: #7F89A6;
+  --btn-text: #FFFFFF;
+  --field: #FFFFFF;
+  --mx: 30px;
+  --hand: "Shantell Sans", "Comic Sans MS", "Chalkboard SE", cursive;
+  --text: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  box-sizing: border-box;
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #131B31;
+    --line: #1C2744;
+    --line-strong: #2A3961;
+    --margin: #E8697A;
+    --ink: #E4EAFB;
+    --ink-soft: #9CA8CB;
+    --hl: rgba(255, 228, 70, .38);
+    --ok: #52C48E;
+    --miss: #F07C8C;
+    --wait: #8C97B8;
+    --btn-text: #131B31;
+    --field: #1A2340;
+  }
+}
+@media (min-width: 560px) { :root { --mx: 56px; } }
+*, *::before, *::after { box-sizing: inherit; }
+html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: var(--ink);
+  font: 17px/1.55 var(--text);
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(var(--line-strong) 1px, transparent 1px),
+    linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 100% 32px, 100% 8px, 32px 100%;
+}
+.sheet {
+  position: relative;
+  max-width: 680px;
+  margin: 0 auto;
+  min-height: 100vh;
+  padding: 20px 18px 120px calc(var(--mx) + 16px);
+}
+.sheet::before {
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0;
+  left: var(--mx);
+  width: 2px;
+  background: var(--margin);
+  opacity: .8;
+}
+h1, h2, h3 { font-family: var(--hand); font-weight: 800; line-height: 1.15; margin: 0; }
+h1 { font-size: clamp(30px, 8vw, 44px); letter-spacing: -.01em; }
+h2 { font-size: 24px; margin: 36px 0 12px; }
+p { margin: 0 0 12px; max-width: 62ch; }
+.muted { color: var(--ink-soft); }
+.small { font-size: 15px; }
+a { color: inherit; }
+
+/* ---------- boutons ---------- */
+button, .btn {
+  font: 700 17px/1.2 var(--text);
+  border: 2px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  padding: 12px 18px;
+  border-radius: 14px 18px 12px 20px / 18px 12px 20px 14px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 48px;
+}
+button.primary { background: var(--ink); color: var(--btn-text); }
+button.quiet { border-color: transparent; padding-inline: 6px; text-decoration: underline; text-underline-offset: 3px; min-height: 40px; font-weight: 400; }
+button:disabled { opacity: .5; cursor: default; }
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, .tab:focus-visible {
+  outline: 3px solid var(--margin); outline-offset: 2px;
+}
+.wide { width: 100%; }
+
+/* ---------- champs ---------- */
+label { display: block; font-weight: 700; margin: 16px 0 6px; }
+input, select, textarea {
+  width: 100%;
+  font: 17px/1.4 var(--text);
+  color: var(--ink);
+  background: var(--field);
+  border: 2px solid var(--line-strong);
+  border-radius: 10px;
+  padding: 11px 12px;
+}
+textarea { resize: vertical; min-height: 96px; font-size: 14px; word-break: break-all; }
+.hint { font-size: 14px; color: var(--ink-soft); margin-top: 6px; }
+
+/* ---------- en-tête ---------- */
+.head { padding-top: 12px; }
+.countdown { font-family: var(--hand); font-size: 20px; margin-top: 6px; }
+.countdown strong { background: linear-gradient(transparent 55%, var(--hl) 55%); padding: 0 2px; }
+
+/* ---------- les deux lecteurs ---------- */
+.readers { display: grid; gap: 28px; margin-top: 28px; }
+@media (min-width: 520px) { .readers { grid-template-columns: 1fr 1fr; gap: 20px; } }
+.reader h3 { font-size: 26px; }
+.reader .you { font: 400 14px var(--text); color: var(--ink-soft); margin-left: 6px; }
+.status { font-weight: 700; margin: 4px 0 10px; }
+.status.ok { color: var(--ok); }
+.status.wait { color: var(--wait); }
+.tally { width: 100%; max-width: 240px; height: auto; display: block; margin: 6px 0 12px; overflow: visible; }
+.tally g { stroke: var(--ink); stroke-width: 2.2; stroke-linecap: round; opacity: .22; }
+.tally.is-done g { opacity: 1; }
+.tally .hl { fill: var(--hl); transform-origin: 0 50%; }
+.tally.sweep .hl { animation: sweep .7s cubic-bezier(.3,.7,.3,1) both; }
+@keyframes sweep { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@media (prefers-reduced-motion: reduce) { .tally.sweep .hl { animation: none; } }
+.streak { font-size: 15px; color: var(--ink-soft); margin: 0 0 12px; }
+
+/* ---------- challenges ---------- */
+.todo { list-style: none; margin: 0; padding: 0; }
+.todo li { padding: 14px 0 16px; border-bottom: 2px dashed var(--line-strong); }
+.todo li:last-child { border-bottom: 0; }
+.todo .who { font-family: var(--hand); font-weight: 600; font-size: 18px; }
+.todo .txt { font-size: 19px; margin: 4px 0 10px; }
+.todo .num { color: var(--ink-soft); font-size: 14px; }
+.empty { font-family: var(--hand); font-size: 19px; color: var(--ink-soft); }
+
+.list { list-style: none; margin: 0; padding: 0; }
+.list li { display: grid; grid-template-columns: 3.2em 1fr; gap: 6px; padding: 7px 0; border-bottom: 1px solid var(--line); }
+.list .n { color: var(--ink-soft); font-variant-numeric: tabular-nums; text-align: right; padding-right: 6px; }
+.list .had { display: block; font-size: 13px; color: var(--ink-soft); }
+
+/* ---------- historique ---------- */
+.hist { width: 100%; border-collapse: collapse; font-size: 16px; }
+.hist th, .hist td { text-align: left; padding: 8px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.hist th { font-family: var(--hand); font-weight: 600; }
+.mark-ok { color: var(--ok); font-weight: 700; }
+.mark-miss { color: var(--miss); font-weight: 700; }
+.mark-wait { color: var(--wait); }
+.stats { display: grid; gap: 12px; grid-template-columns: 1fr 1fr; margin-bottom: 8px; }
+.stats div { font-family: var(--hand); font-size: 18px; }
+.stats b { font-size: 30px; display: block; line-height: 1.1; }
+
+/* ---------- navigation ---------- */
+nav.tabs {
+  position: fixed; left: 0; right: 0; bottom: 0;
+  background: var(--paper);
+  border-top: 2px solid var(--line-strong);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+  display: flex; justify-content: center; z-index: 5;
+}
+nav.tabs .in { display: flex; width: 100%; max-width: 680px; }
+.tab {
+  flex: 1; border: 0; border-radius: 0; min-height: 60px; padding: 8px 4px;
+  font: 600 15px var(--hand); color: var(--ink-soft); background: transparent;
+  flex-direction: column; gap: 2px;
+}
+.tab .ico { font-size: 20px; line-height: 1; }
+.tab[aria-current="page"] { color: var(--ink); }
+.tab[aria-current="page"] .lbl { background: linear-gradient(transparent 55%, var(--hl) 55%); }
+
+/* ---------- divers ---------- */
+.toast {
+  position: fixed; left: 50%; bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+  transform: translateX(-50%);
+  background: var(--ink); color: var(--btn-text);
+  padding: 12px 18px; border-radius: 12px; max-width: calc(100% - 32px);
+  font-weight: 700; z-index: 10; box-shadow: 0 6px 20px rgba(0,0,0,.2);
+}
+.toast.err { background: var(--miss); color: #fff; }
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.loading { font-family: var(--hand); font-size: 22px; padding-top: 30vh; }
+.box { border: 2px solid var(--line-strong); border-radius: 12px; padding: 14px 16px; margin: 12px 0; background: var(--paper); }
+.who-pick { display: grid; gap: 12px; margin-top: 12px; }
+</style>
+</head>
+<body>
+<main class="sheet" id="app"><p class="loading">Ouverture du carnet…</p></main>
+<nav class="tabs" id="nav" hidden><div class="in">
+  <button class="tab" data-action="tab" data-tab="today"><span class="ico" aria-hidden="true">📖</span><span class="lbl">Aujourd'hui</span></button>
+  <button class="tab" data-action="tab" data-tab="history"><span class="ico" aria-hidden="true">🗓️</span><span class="lbl">Historique</span></button>
+  <button class="tab" data-action="tab" data-tab="list"><span class="ico" aria-hidden="true">🎯</span><span class="lbl">Challenges</span></button>
+  <button class="tab" data-action="tab" data-tab="settings"><span class="ico" aria-hidden="true">⚙️</span><span class="lbl">Réglages</span></button>
+</div></nav>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+<script>
+"use strict";
+/* ================================================================ config */
+const STATE_PATH = "data/state.json";
+const CHALLENGES_PATH = "data/challenges.json";
+const LS_KEY = "lectureChallenge.v1";
+const app = document.getElementById("app");
+const nav = document.getElementById("nav");
+
+const S = {
+  cfg: loadCfg(),
+  state: null,
+  sha: null,
+  challenges: null,
+  tab: "today",
+  busy: false,
+  justRead: false,
+  setupStep: "token",
+  invite: "",
+  lastDate: null,
+};
+
+function loadCfg() {
+  try { return JSON.parse(localStorage.getItem(LS_KEY)) || {}; } catch (e) { return {}; }
+}
+function saveCfg() {
+  try { localStorage.setItem(LS_KEY, JSON.stringify(S.cfg)); } catch (e) { /* stockage indisponible */ }
+}
+function detectRepo() {
+  const host = location.hostname;
+  if (!host.endsWith(".github.io")) return {};
+  const owner = host.slice(0, -".github.io".length);
+  const seg = location.pathname.split("/").filter(Boolean)[0];
+  const repo = seg && !seg.includes(".") ? seg : host;
+  return { owner, repo };
+}
+
+/* ================================================================ dates (heure de Paris) */
+function parisNow() {
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/Paris", year: "numeric", month: "2-digit", day: "2-digit",
+    hour: "2-digit", minute: "2-digit", second: "2-digit", hourCycle: "h23",
+  }).formatToParts(new Date());
+  const g = (t) => parts.find((p) => p.type === t).value;
+  return { date: `${g("year")}-${g("month")}-${g("day")}`, h: +g("hour"), m: +g("minute"), s: +g("second") };
+}
+const today = () => parisNow().date;
+function addDays(ds, n) {
+  const d = new Date(ds + "T12:00:00Z");
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+}
+function fmtDate(ds, withDay = true) {
+  const opts = withDay ? { weekday: "long", day: "numeric", month: "long" } : { day: "numeric", month: "long" };
+  return new Intl.DateTimeFormat("fr-FR", { ...opts, timeZone: "UTC" }).format(new Date(ds + "T12:00:00Z"));
+}
+const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
+function timeLeft() {
+  const n = parisNow();
+  const left = Math.max(0, 86400 - (n.h * 3600 + n.m * 60 + n.s));
+  const h = Math.floor(left / 3600), m = Math.floor((left % 3600) / 60);
+  return h > 0 ? `${h} h ${String(m).padStart(2, "0")}` : `${m} min`;
+}
+
+/* ================================================================ utilitaires */
+function esc(s) {
+  return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function b64ToUtf8(b64) {
+  const bin = atob(b64.replace(/\s/g, ""));
+  return new TextDecoder().decode(Uint8Array.from(bin, (c) => c.charCodeAt(0)));
+}
+function utf8ToB64(str) {
+  const bytes = new TextEncoder().encode(str);
+  let bin = "";
+  for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+  return btoa(bin);
+}
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+let toastTimer;
+function toast(msg, isErr = false) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.className = "toast" + (isErr ? " err" : "");
+  t.hidden = false;
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => { t.hidden = true; }, isErr ? 6000 : 3000);
+}
+const people = () => (S.state && S.state.people) || [];
+const nameOf = (id) => (people().find((p) => p.id === id) || { name: id }).name;
+const otherOf = (id) => people().find((p) => p.id !== id);
+
+/* ================================================================ API GitHub */
+async function api(path, opts = {}) {
+  const { owner, repo, token } = S.cfg;
+  const headers = { Accept: "application/vnd.github+json", Authorization: "Bearer " + token };
+  if (opts.body) headers["Content-Type"] = "application/json";
+  let res;
+  try {
+    res = await fetch(`https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}${path}`, {
+      method: opts.method || "GET", headers, body: opts.body, cache: "no-store",
+    });
+  } catch (e) {
+    throw new Error("Impossible de joindre GitHub. Vérifie ta connexion internet.");
+  }
+  return res;
+}
+async function apiError(res) {
+  let msg = "";
+  try { msg = (await res.json()).message || ""; } catch (e) { /* pas de JSON */ }
+  if (res.status === 401) return new Error("Le jeton GitHub est invalide ou a expiré. Mets-en un nouveau dans Réglages.");
+  if (res.status === 403) return new Error("Le jeton n'a pas le droit d'écrire dans ce dépôt (permission « Contents : Read and write » requise), ou trop de requêtes : réessaie dans quelques minutes.");
+  if (res.status === 404) return new Error("Dépôt ou fichier introuvable. Vérifie le nom du dépôt et que le jeton a bien accès à ce dépôt.");
+  return new Error(`Erreur GitHub ${res.status}${msg ? " : " + msg : ""}`);
+}
+async function ensureBranch() {
+  if (S.cfg.branch) return;
+  const res = await api("");
+  if (!res.ok) throw await apiError(res);
+  S.cfg.branch = (await res.json()).default_branch || "main";
+  saveCfg();
+}
+async function readState() {
+  await ensureBranch();
+  const res = await api(`/contents/${STATE_PATH}?ref=${encodeURIComponent(S.cfg.branch)}&t=${Date.now()}`);
+  if (!res.ok) throw await apiError(res);
+  const j = await res.json();
+  return { state: JSON.parse(b64ToUtf8(j.content)), sha: j.sha };
+}
+/* Lit l'état le plus récent, applique la modification et enregistre ;
+   recommence si quelqu'un d'autre a écrit entre-temps. */
+async function mutate(fn, message) {
+  for (let attempt = 0; attempt < 4; attempt++) {
+    const { state, sha } = await readState();
+    state.reading = state.reading || {};
+    state.challenges = state.challenges || [];
+    const changed = fn(state);
+    if (changed === false) { S.state = state; S.sha = sha; return false; }
+    const res = await api(`/contents/${STATE_PATH}`, {
+      method: "PUT",
+      body: JSON.stringify({
+        message,
+        content: utf8ToB64(JSON.stringify(state, null, 2) + "\n"),
+        sha,
+        branch: S.cfg.branch,
+      }),
+    });
+    if (res.ok) {
+      S.state = state;
+      S.sha = (await res.json()).content.sha;
+      return true;
+    }
+    if (res.status === 409 || res.status === 422) { await sleep(600 * (attempt + 1)); continue; }
+    throw await apiError(res);
+  }
+  throw new Error("Quelqu'un a modifié les données en même temps. Réessaie.");
+}
+async function loadChallenges() {
+  if (S.challenges) return;
+  try {
+    const res = await fetch(CHALLENGES_PATH, { cache: "no-cache" });
+    if (!res.ok) throw new Error();
+    S.challenges = await res.json();
+  } catch (e) {
+    const res = await api(`/contents/${CHALLENGES_PATH}?ref=${encodeURIComponent(S.cfg.branch || "main")}`);
+    if (!res.ok) throw await apiError(res);
+    S.challenges = JSON.parse(b64ToUtf8((await res.json()).content));
+  }
+}
+
+/* ================================================================ calculs */
+function readOn(ds, pid) { const r = S.state.reading || {}; return !!(r[ds] && r[ds][pid]); }
+function dayStatus(ds, pid) {
+  if (readOn(ds, pid)) return "ok";
+  if (ds === today()) return "today";
+  if (S.state.lastProcessed && ds <= S.state.lastProcessed) return "miss";
+  return "wait";
+}
+function streak(pid) {
+  let d = today();
+  if (!readOn(d, pid)) d = addDays(d, -1);
+  let n = 0;
+  while (readOn(d, pid) && n < 5000) { n++; d = addDays(d, -1); }
+  return n;
+}
+function pending() {
+  return (S.state.challenges || []).filter((c) => c.status === "pending").sort((a, b) => a.date.localeCompare(b.date));
+}
+
+/* ================================================================ dessin : 20 bâtons */
+function tally(done, sweep) {
+  let lines = "";
+  for (let g = 0; g < 4; g++) {
+    const x0 = g * 34 + 6;
+    for (let i = 0; i < 4; i++) {
+      const x = x0 + i * 6;
+      lines += `<line x1="${x}" y1="${6 + (i % 2)}" x2="${x + (i % 2 ? 1 : -1)}" y2="30"/>`;
+    }
+    lines += `<line x1="${x0 - 4}" y1="25" x2="${x0 + 22}" y2="10"/>`;
+  }
+  const hl = done ? `<rect class="hl" x="0" y="11" width="136" height="16" rx="5"/>` : "";
+  return `<svg class="tally${done ? " is-done" : ""}${sweep ? " sweep" : ""}" viewBox="0 0 136 36" role="img" aria-label="${done ? "20 pages lues" : "20 pages à lire"}">${hl}<g>${lines}</g></svg>`;
+}
+
+/* ================================================================ écrans */
+function render() {
+  if (!S.cfg.token || !S.cfg.owner || !S.cfg.repo || !S.state || !S.cfg.me || !people().some((p) => p.id === S.cfg.me)) {
+    nav.hidden = true;
+    renderSetup();
+    return;
+  }
+  nav.hidden = false;
+  nav.querySelectorAll(".tab").forEach((b) => {
+    if (b.dataset.tab === S.tab) b.setAttribute("aria-current", "page"); else b.removeAttribute("aria-current");
+  });
+  const screens = { today: renderToday, history: renderHistory, list: renderList, settings: renderSettings };
+  app.innerHTML = screens[S.tab]();
+  S.justRead = false;
+}
+
+function renderSetup() {
+  const d = detectRepo();
+  if (S.state && S.cfg.token && S.cfg.owner && S.cfg.repo) {
+    app.innerHTML = `
+      <div class="head"><h1>Qui es-tu ?</h1></div>
+      <p class="muted" style="margin-top:12px">Ce choix reste enregistré sur cet appareil uniquement.</p>
+      <div class="who-pick">
+        ${people().map((p) => `<button class="primary wide" data-action="pick-me" data-id="${esc(p.id)}">C'est moi, ${esc(p.name)}</button>`).join("")}
+      </div>`;
+    return;
+  }
+  app.innerHTML = `
+    <div class="head"><h1>Lecture Challenge</h1></div>
+    <p style="margin-top:12px">20 pages par jour chacun. Sinon, un challenge à filmer.</p>
+    <p class="muted small">Pour commencer, colle le jeton GitHub créé pendant l'installation (voir le README). Si tu as reçu un lien d'invitation, ouvre-le simplement : tout se remplit tout seul.</p>
+    <label for="f-owner">Nom d'utilisateur GitHub</label>
+    <input id="f-owner" autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(S.cfg.owner || d.owner || "")}">
+    <label for="f-repo">Nom du dépôt</label>
+    <input id="f-repo" autocomplete="off" autocapitalize="off" spellcheck="false" value="${esc(S.cfg.repo || d.repo || "")}">
+    <label for="f-token">Jeton GitHub</label>
+    <input id="f-token" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…" value="${esc(S.cfg.token || "")}">
+    <p class="hint">Le jeton reste sur cet appareil. Il n'est jamais enregistré dans le dépôt.</p>
+    <div style="margin-top:20px"><button class="primary wide" data-action="connect">Se connecter</button></div>`;
+}
+
+function renderToday() {
+  const t = today();
+  const me = S.cfg.me;
+  const readers = people().map((p) => {
+    const done = readOn(t, p.id);
+    const mine = p.id === me;
+    const st = streak(p.id);
+    let action = "";
+    if (mine && !done) action = `<button class="primary wide" data-action="read">J'ai lu mes 20 pages</button>`;
+    if (mine && done) action = `<button class="quiet" data-action="unread">Annuler (je me suis trompé·e)</button>`;
+    return `
+      <section class="reader" aria-label="${esc(p.name)}">
+        <h3>${esc(p.name)}${mine ? `<span class="you">(toi)</span>` : ""}</h3>
+        <p class="status ${done ? "ok" : "wait"}">${done ? "20 pages lues ✓" : "Pas encore lu"}</p>
+        ${tally(done, done && mine && S.justRead)}
+        <p class="streak">${st > 0 ? `🔥 ${st} jour${st > 1 ? "s" : ""} d'affilée` : "Aucune série en cours"}</p>
+        ${action}
+      </section>`;
+  }).join("");
+
+  const todo = pending();
+  const todoHtml = todo.length === 0
+    ? `<p class="empty">Aucun challenge en attente. Continuez comme ça !</p>`
+    : `<ul class="todo">${todo.map((c) => {
+        const mine = c.person === me;
+        const other = otherOf(c.person);
+        const action = mine
+          ? `<p class="muted small">Filme-toi et envoie la vidéo à ${esc(other ? other.name : "l'autre")}. C'est ${esc(other ? other.name : "l'autre")} qui valide.</p>`
+          : `<button data-action="validate" data-id="${esc(c.id)}">J'ai vu la vidéo : valider</button>`;
+        return `<li>
+          <div class="who">${esc(nameOf(c.person))}, pour le ${esc(fmtDate(c.date, false))}</div>
+          <p class="txt">${esc(c.text)} <span class="num">n°${esc(c.challengeId)}</span></p>
+          ${action}
+        </li>`;
+      }).join("")}</ul>`;
+
+  return `
+    <div class="head">
+      <h1>${esc(cap(fmtDate(t)))}</h1>
+      <p class="countdown" id="countdown">Il reste <strong>${timeLeft()}</strong> pour lire.</p>
+    </div>
+    <div class="readers">${readers}</div>
+    <h2>Challenges à faire en vidéo</h2>
+    ${todoHtml}
+    <div style="margin-top:28px"><button class="quiet" data-action="refresh">Actualiser</button></div>`;
+}
+
+function renderHistory() {
+  const t = today();
+  const start = S.state.startDate || t;
+  const rows = [];
+  for (let d = t, i = 0; d >= start && i < 60; d = addDays(d, -1), i++) rows.push(d);
+  const label = { ok: '<span class="mark-ok">✓ lu</span>', miss: '<span class="mark-miss">✗ challenge</span>', today: '<span class="mark-wait">en cours</span>', wait: '<span class="mark-wait">vérification…</span>' };
+  const stats = people().map((p) => {
+    const read = Object.values(S.state.reading || {}).filter((day) => day[p.id]).length;
+    const chals = (S.state.challenges || []).filter((c) => c.person === p.id);
+    const done = chals.filter((c) => c.status === "done").length;
+    return `<div>${esc(p.name)}<b>${read}</b><span class="small muted">jour${read > 1 ? "s" : ""} lu${read > 1 ? "s" : ""}, ${done}/${chals.length} challenge${chals.length > 1 ? "s" : ""} fait${done > 1 ? "s" : ""}</span></div>`;
+  }).join("");
+  const doneList = (S.state.challenges || []).filter((c) => c.status === "done").sort((a, b) => b.date.localeCompare(a.date)).slice(0, 30);
+  return `
+    <div class="head"><h1>Historique</h1></div>
+    <p class="muted small" style="margin-top:8px">Depuis le ${esc(fmtDate(start, false))}.</p>
+    <div class="stats">${stats}</div>
+    <div style="overflow-x:auto">
+      <table class="hist">
+        <thead><tr><th>Jour</th>${people().map((p) => `<th>${esc(p.name)}</th>`).join("")}</tr></thead>
+        <tbody>${rows.map((d) => `<tr><td>${esc(cap(fmtDate(d)))}</td>${people().map((p) => `<td>${label[dayStatus(d, p.id)]}</td>`).join("")}</tr>`).join("")}</tbody>
+      </table>
+    </div>
+    <h2>Challenges réalisés</h2>
+    ${doneList.length ? `<ul class="todo">${doneList.map((c) => `<li><div class="who">${esc(nameOf(c.person))}, ${esc(fmtDate(c.date, false))}</div><p class="txt">${esc(c.text)}</p><p class="muted small">Validé par ${esc(nameOf(c.validatedBy))}</p></li>`).join("")}</ul>` : `<p class="empty">Aucun pour l'instant.</p>`}`;
+}
+
+function renderList() {
+  if (!S.challenges) {
+    loadChallenges().then(render).catch((e) => toast(e.message, true));
+    return `<p class="loading">Chargement des challenges…</p>`;
+  }
+  const had = {};
+  (S.state.challenges || []).forEach((c) => { (had[c.challengeId] = had[c.challengeId] || new Set()).add(c.person); });
+  return `
+    <div class="head"><h1>Les ${S.challenges.length} challenges</h1></div>
+    <p class="muted small" style="margin-top:8px">Tirés au hasard, sans répétition tant que la liste n'est pas terminée. Pour en ajouter ou en modifier, édite <code>data/challenges.json</code> sur GitHub.</p>
+    <label for="f-search">Rechercher</label>
+    <input id="f-search" type="search" placeholder="ex. danse, squats, accent…" autocomplete="off">
+    <ul class="list" id="clist">${S.challenges.map((c) => `
+      <li data-text="${esc(c.text.toLowerCase())}"><span class="n">${esc(c.id)}</span><span>${esc(c.text)}${had[c.id] ? `<span class="had">Déjà eu : ${[...had[c.id]].map((id) => esc(nameOf(id))).join(", ")}</span>` : ""}</span></li>`).join("")}
+    </ul>`;
+}
+
+function renderSettings() {
+  const me = S.cfg.me;
+  const other = otherOf(me);
+  return `
+    <div class="head"><h1>Réglages</h1></div>
+    <h2>Prénoms</h2>
+    ${people().map((p) => `<label for="name-${esc(p.id)}">Personne ${esc(p.id.replace("p", ""))}${p.id === me ? " (toi)" : ""}</label><input id="name-${esc(p.id)}" data-pid="${esc(p.id)}" class="name-field" value="${esc(p.name)}" maxlength="30">`).join("")}
+    <div style="margin-top:14px"><button data-action="save-names">Enregistrer les prénoms</button></div>
+
+    <h2>Inviter ${esc(other ? other.name : "l'autre")}</h2>
+    <p class="small">Ce lien connecte directement ${esc(other ? other.name : "l'autre personne")} sur son téléphone, sans rien remplir.</p>
+    <p class="small muted">Attention : il contient le jeton GitHub. Envoie-le seulement à ${esc(other ? other.name : "elle")}, en message privé.</p>
+    ${S.invite
+      ? `<textarea readonly id="invite-link">${esc(S.invite)}</textarea>
+         <div class="row" style="margin-top:10px">
+           <button data-action="copy-invite">Copier le lien</button>
+           <a class="btn" href="https://wa.me/?text=${encodeURIComponent("Voici ton lien pour Lecture Challenge 📚 : " + S.invite)}" target="_blank" rel="noopener">Envoyer par WhatsApp</a>
+         </div>`
+      : `<button data-action="make-invite">Créer le lien d'invitation</button>`}
+
+    <h2>Cet appareil</h2>
+    <p class="small">Connecté en tant que <b>${esc(nameOf(me))}</b> sur le dépôt <b>${esc(S.cfg.owner)}/${esc(S.cfg.repo)}</b>.</p>
+    <div class="row">
+      <button data-action="switch-me">Changer de personne</button>
+      <button data-action="logout">Se déconnecter</button>
+    </div>`;
+}
+
+/* ================================================================ actions */
+async function run(fn) {
+  if (S.busy) return;
+  S.busy = true;
+  document.body.style.cursor = "progress";
+  app.querySelectorAll("button").forEach((b) => { b.disabled = true; });
+  try { await fn(); } catch (e) { toast(e.message || String(e), true); }
+  finally {
+    S.busy = false;
+    document.body.style.cursor = "";
+    render();
+  }
+}
+
+const actions = {
+  tab(el) { S.tab = el.dataset.tab; render(); window.scrollTo(0, 0); },
+
+  connect() {
+    return run(async () => {
+      const owner = document.getElementById("f-owner").value.trim();
+      const repo = document.getElementById("f-repo").value.trim();
+      const token = document.getElementById("f-token").value.trim();
+      if (!owner || !repo || !token) throw new Error("Remplis les trois champs.");
+      S.cfg = { ...S.cfg, owner, repo, token, branch: "" };
+      const { state, sha } = await readState();
+      S.state = state; S.sha = sha;
+      saveCfg();
+      if (!S.cfg.me || !people().some((p) => p.id === S.cfg.me)) S.setupStep = "who";
+    });
+  },
+
+  "pick-me"(el) { S.cfg.me = el.dataset.id; saveCfg(); S.setupStep = "token"; S.tab = "today"; render(); },
+
+  read() {
+    return run(async () => {
+      const me = S.cfg.me;
+      const changed = await mutate((st) => {
+        const d = today();
+        if (st.lastProcessed && d <= st.lastProcessed) throw new Error("Cette journée est déjà clôturée.");
+        if (!st.startDate) st.startDate = d;
+        const day = (st.reading[d] = st.reading[d] || {});
+        if (day[me]) return false;
+        day[me] = new Date().toISOString();
+        return true;
+      }, `${nameOf(me)} a lu ses 20 pages (${today()})`);
+      S.justRead = changed;
+      toast(changed ? "Bravo, 20 pages de plus ! 📚" : "C'était déjà validé.");
+    });
+  },
+
+  unread() {
+    if (!confirm("Annuler ta lecture d'aujourd'hui ?")) return;
+    return run(async () => {
+      const me = S.cfg.me;
+      await mutate((st) => {
+        const d = today();
+        if (st.lastProcessed && d <= st.lastProcessed) throw new Error("Cette journée est déjà clôturée.");
+        if (!st.reading[d] || !st.reading[d][me]) return false;
+        delete st.reading[d][me];
+        if (Object.keys(st.reading[d]).length === 0) delete st.reading[d];
+        return true;
+      }, `${nameOf(me)} annule sa lecture (${today()})`);
+      toast("Lecture annulée.");
+    });
+  },
+
+  validate(el) {
+    const id = el.dataset.id;
+    const c = (S.state.challenges || []).find((x) => x.id === id);
+    if (!c || !confirm(`Tu as bien reçu la vidéo de ${nameOf(c.person)} ? Le challenge sera validé.`)) return;
+    return run(async () => {
+      const me = S.cfg.me;
+      await mutate((st) => {
+        const ch = st.challenges.find((x) => x.id === id);
+        if (!ch) throw new Error("Challenge introuvable.");
+        if (ch.person === me) throw new Error("Tu ne peux pas valider ton propre challenge.");
+        if (ch.status !== "pending") return false;
+        ch.status = "done";
+        ch.validatedAt = new Date().toISOString();
+        ch.validatedBy = me;
+        return true;
+      }, `${nameOf(me)} valide le challenge de ${nameOf(c.person)} (${c.date})`);
+      toast("Challenge validé ✓");
+    });
+  },
+
+  refresh() {
+    return run(async () => {
+      const { state, sha } = await readState();
+      S.state = state; S.sha = sha;
+      toast("À jour.");
+    });
+  },
+
+  "save-names"() {
+    const fields = [...app.querySelectorAll(".name-field")];
+    const names = {};
+    for (const f of fields) {
+      const v = f.value.trim();
+      if (!v) { toast("Un prénom ne peut pas être vide.", true); return; }
+      names[f.dataset.pid] = v;
+    }
+    return run(async () => {
+      await mutate((st) => {
+        let changed = false;
+        st.people.forEach((p) => { if (names[p.id] && names[p.id] !== p.name) { p.name = names[p.id]; changed = true; } });
+        return changed;
+      }, "Mise à jour des prénoms");
+      toast("Prénoms enregistrés.");
+    });
+  },
+
+  "make-invite"() {
+    const other = otherOf(S.cfg.me);
+    const payload = { o: S.cfg.owner, r: S.cfg.repo, t: S.cfg.token, m: other ? other.id : "" };
+    S.invite = location.origin + location.pathname + "#invite=" + encodeURIComponent(utf8ToB64(JSON.stringify(payload)));
+    render();
+  },
+
+  async "copy-invite"() {
+    try { await navigator.clipboard.writeText(S.invite); toast("Lien copié."); }
+    catch (e) { const t = document.getElementById("invite-link"); t.select(); toast("Sélectionné : copie-le manuellement."); }
+  },
+
+  "switch-me"() { S.setupStep = "who"; S.cfg.me = ""; saveCfg(); render(); },
+
+  logout() {
+    if (!confirm("Se déconnecter de cet appareil ? Il faudra recoller le jeton.")) return;
+    S.cfg = {}; S.state = null; S.invite = "";
+    try { localStorage.removeItem(LS_KEY); } catch (e) { /* rien */ }
+    S.setupStep = "token";
+    render();
+  },
+};
+
+document.addEventListener("click", (ev) => {
+  const el = ev.target.closest("[data-action]");
+  if (!el || el.disabled) return;
+  const fn = actions[el.dataset.action];
+  if (fn) { ev.preventDefault(); fn(el); }
+});
+document.addEventListener("input", (ev) => {
+  if (ev.target.id !== "f-search") return;
+  const q = ev.target.value.trim().toLowerCase();
+  document.querySelectorAll("#clist li").forEach((li) => { li.hidden = q && !li.dataset.text.includes(q); });
+});
+
+/* ================================================================ démarrage */
+function readInvite() {
+  const m = location.hash.match(/^#invite=(.+)$/);
+  if (!m) return;
+  try {
+    const p = JSON.parse(b64ToUtf8(decodeURIComponent(m[1])));
+    if (p.o && p.r && p.t) S.cfg = { owner: p.o, repo: p.r, token: p.t, me: p.m || "", branch: "" };
+    saveCfg();
+  } catch (e) { /* lien abîmé : on ignore */ }
+  history.replaceState(null, "", location.pathname + location.search);
+}
+
+async function boot() {
+  readInvite();
+  if (S.cfg.token && S.cfg.owner && S.cfg.repo) {
+    try {
+      const { state, sha } = await readState();
+      S.state = state; S.sha = sha;
+      if (!S.cfg.me || !people().some((p) => p.id === S.cfg.me)) S.setupStep = "who";
+    } catch (e) {
+      toast(e.message, true);
+    }
+  }
+  S.lastDate = today();
+  render();
+}
+
+setInterval(() => {
+  if (!S.state || S.busy) return;
+  if (today() !== S.lastDate) { S.lastDate = today(); render(); return; }
+  const c = document.getElementById("countdown");
+  if (c) c.innerHTML = `Il reste <strong>${timeLeft()}</strong> pour lire.`;
+}, 20000);
+
+document.addEventListener("visibilitychange", async () => {
+  if (document.visibilityState !== "visible" || !S.state || S.busy) return;
+  try { const { state, sha } = await readState(); S.state = state; S.sha = sha; render(); } catch (e) { /* silencieux */ }
+});
+
+boot();
+</script>
+</body>
+</html>

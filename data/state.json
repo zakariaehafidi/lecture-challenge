@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "startDate": null,
+  "lastProcessed": null,
+  "people": [
+    { "id": "p1", "name": "Moi" },
+    { "id": "p2", "name": "Intissar" }
+  ],
+  "reading": {},
+  "challenges": []
+}
