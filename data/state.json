@@ -1,10 +1,16 @@
 {
   "version": 1,
-  "startDate": null,
+  "startDate": "2026-09-26",
   "lastProcessed": null,
   "people": [
-    { "id": "p1", "name": "Moi" },
-    { "id": "p2", "name": "Intissar" }
+    {
+      "id": "p1",
+      "name": "Moi"
+    },
+    {
+      "id": "p2",
+      "name": "Intissar"
+    }
   ],
   "reading": {},
   "challenges": []
