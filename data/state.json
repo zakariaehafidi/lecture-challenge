@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": null,
+  "lastProcessed": "2026-09-26",
   "people": [
     {
       "id": "p1",
@@ -13,5 +13,28 @@
     }
   ],
   "reading": {},
-  "challenges": []
+  "challenges": [
+    {
+      "id": "2026-09-26-p1",
+      "date": "2026-09-26",
+      "person": "p1",
+      "challengeId": 28,
+      "text": "Expliquer comment faire des pâtes comme si c'était une opération chirurgicale très délicate.",
+      "status": "pending",
+      "assignedAt": "2026-09-27T02:28:42+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-09-26-p2",
+      "date": "2026-09-26",
+      "person": "p2",
+      "challengeId": 291,
+      "text": "Faire 30 secondes de pas chassés dans le salon.",
+      "status": "pending",
+      "assignedAt": "2026-09-27T02:28:42+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    }
+  ]
 }
