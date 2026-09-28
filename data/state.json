@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-09-26",
+  "lastProcessed": "2026-09-27",
   "people": [
     {
       "id": "p1",
@@ -33,6 +33,28 @@
       "text": "Faire 30 secondes de pas chassés dans le salon.",
       "status": "pending",
       "assignedAt": "2026-09-27T02:28:42+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-09-27-p1",
+      "date": "2026-09-27",
+      "person": "p1",
+      "challengeId": 79,
+      "text": "Mimer une journée entière de ta vie en 30 secondes.",
+      "status": "pending",
+      "assignedAt": "2026-09-28T02:35:29+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-09-27-p2",
+      "date": "2026-09-27",
+      "person": "p2",
+      "challengeId": 299,
+      "text": "Inventer un chant de supporter pour encourager l'autre à lire.",
+      "status": "pending",
+      "assignedAt": "2026-09-28T02:35:29+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
