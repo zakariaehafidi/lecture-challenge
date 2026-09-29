@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-09-27",
+  "lastProcessed": "2026-09-28",
   "people": [
     {
       "id": "p1",
@@ -55,6 +55,28 @@
       "text": "Inventer un chant de supporter pour encourager l'autre à lire.",
       "status": "pending",
       "assignedAt": "2026-09-28T02:35:29+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-09-28-p1",
+      "date": "2026-09-28",
+      "person": "p1",
+      "challengeId": 13,
+      "text": "Faire tenir une cuillère sur ton nez pendant 10 secondes.",
+      "status": "pending",
+      "assignedAt": "2026-09-29T03:49:15+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-09-28-p2",
+      "date": "2026-09-28",
+      "person": "p2",
+      "challengeId": 228,
+      "text": "Raconter un souvenir drôle avec l'autre.",
+      "status": "pending",
+      "assignedAt": "2026-09-29T03:49:15+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
