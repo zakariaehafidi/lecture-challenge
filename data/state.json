@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-09-28",
+  "lastProcessed": "2026-09-29",
   "people": [
     {
       "id": "p1",
@@ -77,6 +77,28 @@
       "text": "Raconter un souvenir drôle avec l'autre.",
       "status": "pending",
       "assignedAt": "2026-09-29T03:49:15+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-09-29-p1",
+      "date": "2026-09-29",
+      "person": "p1",
+      "challengeId": 68,
+      "text": "Faire un karaoké d'une chanson de ton enfance.",
+      "status": "pending",
+      "assignedAt": "2026-09-30T03:14:21+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-09-29-p2",
+      "date": "2026-09-29",
+      "person": "p2",
+      "challengeId": 300,
+      "text": "Diriger un orchestre invisible comme un chef d'orchestre.",
+      "status": "pending",
+      "assignedAt": "2026-09-30T03:14:21+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
