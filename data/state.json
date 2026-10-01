@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-09-29",
+  "lastProcessed": "2026-09-30",
   "people": [
     {
       "id": "p1",
@@ -99,6 +99,28 @@
       "text": "Diriger un orchestre invisible comme un chef d'orchestre.",
       "status": "pending",
       "assignedAt": "2026-09-30T03:14:21+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-09-30-p1",
+      "date": "2026-09-30",
+      "person": "p1",
+      "challengeId": 131,
+      "text": "Présenter un tour du monde en 30 secondes avec une carte dessinée à la main.",
+      "status": "pending",
+      "assignedAt": "2026-10-01T03:13:56+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-09-30-p2",
+      "date": "2026-09-30",
+      "person": "p2",
+      "challengeId": 263,
+      "text": "Inventer une nouvelle danse et lui donner un nom.",
+      "status": "pending",
+      "assignedAt": "2026-10-01T03:13:56+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
