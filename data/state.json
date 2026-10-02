@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-09-30",
+  "lastProcessed": "2026-10-01",
   "people": [
     {
       "id": "p1",
@@ -121,6 +121,28 @@
       "text": "Inventer une nouvelle danse et lui donner un nom.",
       "status": "pending",
       "assignedAt": "2026-10-01T03:13:56+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-01-p1",
+      "date": "2026-10-01",
+      "person": "p1",
+      "challengeId": 250,
+      "text": "Raconter une recette de famille comme une émission culinaire.",
+      "status": "pending",
+      "assignedAt": "2026-10-02T03:36:15+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-01-p2",
+      "date": "2026-10-01",
+      "person": "p2",
+      "challengeId": 2,
+      "text": "Faire 30 squats en disant « j'aime lire » à chaque descente.",
+      "status": "pending",
+      "assignedAt": "2026-10-02T03:36:15+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
