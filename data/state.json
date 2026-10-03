@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-01",
+  "lastProcessed": "2026-10-02",
   "people": [
     {
       "id": "p1",
@@ -143,6 +143,28 @@
       "text": "Faire 30 squats en disant « j'aime lire » à chaque descente.",
       "status": "pending",
       "assignedAt": "2026-10-02T03:36:15+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-02-p1",
+      "date": "2026-10-02",
+      "person": "p1",
+      "challengeId": 241,
+      "text": "Faire l'éloge d'un vieux stylo qui ne marche plus.",
+      "status": "pending",
+      "assignedAt": "2026-10-03T03:05:48+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-02-p2",
+      "date": "2026-10-02",
+      "person": "p2",
+      "challengeId": 62,
+      "text": "Marcher en crabe sur 10 mètres.",
+      "status": "pending",
+      "assignedAt": "2026-10-03T03:05:48+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
