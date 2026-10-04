@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-02",
+  "lastProcessed": "2026-10-03",
   "people": [
     {
       "id": "p1",
@@ -165,6 +165,28 @@
       "text": "Marcher en crabe sur 10 mètres.",
       "status": "pending",
       "assignedAt": "2026-10-03T03:05:48+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-03-p1",
+      "date": "2026-10-03",
+      "person": "p1",
+      "challengeId": 92,
+      "text": "Jouer un sketch de 30 secondes : toi qui rates ton réveil.",
+      "status": "pending",
+      "assignedAt": "2026-10-04T02:31:23+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-03-p2",
+      "date": "2026-10-03",
+      "person": "p2",
+      "challengeId": 46,
+      "text": "Raconter une histoire de 1 minute où chaque phrase commence par la même lettre.",
+      "status": "pending",
+      "assignedAt": "2026-10-04T02:31:23+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
