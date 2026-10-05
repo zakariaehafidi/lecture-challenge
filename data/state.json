@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-03",
+  "lastProcessed": "2026-10-04",
   "people": [
     {
       "id": "p1",
@@ -187,6 +187,28 @@
       "text": "Raconter une histoire de 1 minute où chaque phrase commence par la même lettre.",
       "status": "pending",
       "assignedAt": "2026-10-04T02:31:23+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-04-p1",
+      "date": "2026-10-04",
+      "person": "p1",
+      "challengeId": 222,
+      "text": "Faire un documentaire de 30 secondes sur la vie secrète de tes chaussons.",
+      "status": "pending",
+      "assignedAt": "2026-10-05T02:48:05+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-04-p2",
+      "date": "2026-10-04",
+      "person": "p2",
+      "challengeId": 47,
+      "text": "Faire une séance de sport de 1 minute en mode coach ultra motivé.",
+      "status": "pending",
+      "assignedAt": "2026-10-05T02:48:05+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
