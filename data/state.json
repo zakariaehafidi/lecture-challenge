@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-04",
+  "lastProcessed": "2026-10-05",
   "people": [
     {
       "id": "p1",
@@ -209,6 +209,28 @@
       "text": "Faire une séance de sport de 1 minute en mode coach ultra motivé.",
       "status": "pending",
       "assignedAt": "2026-10-05T02:48:05+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-05-p1",
+      "date": "2026-10-05",
+      "person": "p1",
+      "challengeId": 235,
+      "text": "Chanter les prénoms de tous les membres de la famille.",
+      "status": "pending",
+      "assignedAt": "2026-10-06T04:12:20+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-05-p2",
+      "date": "2026-10-05",
+      "person": "p2",
+      "challengeId": 107,
+      "text": "Expliquer comment lacer ses chaussures comme un professeur d'université.",
+      "status": "pending",
+      "assignedAt": "2026-10-06T04:12:20+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
