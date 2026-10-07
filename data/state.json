@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-05",
+  "lastProcessed": "2026-10-06",
   "people": [
     {
       "id": "p1",
@@ -231,6 +231,28 @@
       "text": "Expliquer comment lacer ses chaussures comme un professeur d'université.",
       "status": "pending",
       "assignedAt": "2026-10-06T04:12:20+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-06-p1",
+      "date": "2026-10-06",
+      "person": "p1",
+      "challengeId": 19,
+      "text": "Dire 3 virelangues à la suite sans te tromper (ex. : « les chaussettes de l'archiduchesse… »).",
+      "status": "pending",
+      "assignedAt": "2026-10-07T03:27:06+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-06-p2",
+      "date": "2026-10-06",
+      "person": "p2",
+      "challengeId": 294,
+      "text": "Faire une déclaration d'amitié à ta brosse à cheveux.",
+      "status": "pending",
+      "assignedAt": "2026-10-07T03:27:06+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
