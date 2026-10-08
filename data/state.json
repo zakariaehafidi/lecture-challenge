@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-06",
+  "lastProcessed": "2026-10-07",
   "people": [
     {
       "id": "p1",
@@ -253,6 +253,28 @@
       "text": "Faire une déclaration d'amitié à ta brosse à cheveux.",
       "status": "pending",
       "assignedAt": "2026-10-07T03:27:06+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-07-p1",
+      "date": "2026-10-07",
+      "person": "p1",
+      "challengeId": 236,
+      "text": "Annoncer une pluie de bonbons comme un présentateur météo.",
+      "status": "pending",
+      "assignedAt": "2026-10-08T03:50:09+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-07-p2",
+      "date": "2026-10-07",
+      "person": "p2",
+      "challengeId": 50,
+      "text": "Faire la « danse de la victoire » la plus ridicule possible pendant 20 secondes.",
+      "status": "pending",
+      "assignedAt": "2026-10-08T03:50:09+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
