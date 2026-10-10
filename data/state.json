@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-08",
+  "lastProcessed": "2026-10-09",
   "people": [
     {
       "id": "p1",
@@ -297,6 +297,28 @@
       "text": "Faire 20 rotations des bras en faisant le bruit d'un hélicoptère.",
       "status": "pending",
       "assignedAt": "2026-10-09T04:02:32+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-09-p1",
+      "date": "2026-10-09",
+      "person": "p1",
+      "challengeId": 111,
+      "text": "Chanter une chanson en te pinçant le nez.",
+      "status": "pending",
+      "assignedAt": "2026-10-10T03:41:33+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-09-p2",
+      "date": "2026-10-09",
+      "person": "p2",
+      "challengeId": 24,
+      "text": "Imiter un membre de la famille (gentiment !) pendant 30 secondes.",
+      "status": "pending",
+      "assignedAt": "2026-10-10T03:41:33+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
