@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-10",
+  "lastProcessed": "2026-10-11",
   "people": [
     {
       "id": "p1",
@@ -341,6 +341,28 @@
       "text": "Annoncer le dîner comme une annonce d'aéroport.",
       "status": "pending",
       "assignedAt": "2026-10-11T02:52:49+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-11-p1",
+      "date": "2026-10-11",
+      "person": "p1",
+      "challengeId": 206,
+      "text": "Chanter en duo avec une peluche (tu fais les deux voix).",
+      "status": "pending",
+      "assignedAt": "2026-10-12T03:13:36+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-11-p2",
+      "date": "2026-10-11",
+      "person": "p2",
+      "challengeId": 74,
+      "text": "Jouer une scène de film célèbre avec des peluches ou des objets.",
+      "status": "pending",
+      "assignedAt": "2026-10-12T03:13:36+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
