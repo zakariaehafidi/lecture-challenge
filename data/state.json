@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-11",
+  "lastProcessed": "2026-10-12",
   "people": [
     {
       "id": "p1",
@@ -363,6 +363,28 @@
       "text": "Jouer une scène de film célèbre avec des peluches ou des objets.",
       "status": "pending",
       "assignedAt": "2026-10-12T03:13:36+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-12-p1",
+      "date": "2026-10-12",
+      "person": "p1",
+      "challengeId": 18,
+      "text": "Faire le tour de la maison comme un guide touristique, en présentant chaque pièce.",
+      "status": "pending",
+      "assignedAt": "2026-10-13T04:59:28+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-12-p2",
+      "date": "2026-10-12",
+      "person": "p2",
+      "challengeId": 169,
+      "text": "Répondre à 5 questions envoyées par l'autre uniquement par des mimiques exagérées.",
+      "status": "pending",
+      "assignedAt": "2026-10-13T04:59:28+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
