@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-12",
+  "lastProcessed": "2026-10-13",
   "people": [
     {
       "id": "p1",
@@ -385,6 +385,28 @@
       "text": "Répondre à 5 questions envoyées par l'autre uniquement par des mimiques exagérées.",
       "status": "pending",
       "assignedAt": "2026-10-13T04:59:28+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-13-p1",
+      "date": "2026-10-13",
+      "person": "p1",
+      "challengeId": 32,
+      "text": "Jongler avec 2 ou 3 objets doux (chaussettes roulées, peluches) pendant 20 secondes.",
+      "status": "pending",
+      "assignedAt": "2026-10-14T03:08:51+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-13-p2",
+      "date": "2026-10-13",
+      "person": "p2",
+      "challengeId": 80,
+      "text": "Faire un rap de 4 phrases sur la lecture.",
+      "status": "pending",
+      "assignedAt": "2026-10-14T03:08:51+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
