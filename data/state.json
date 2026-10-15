@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-13",
+  "lastProcessed": "2026-10-14",
   "people": [
     {
       "id": "p1",
@@ -407,6 +407,28 @@
       "text": "Faire un rap de 4 phrases sur la lecture.",
       "status": "pending",
       "assignedAt": "2026-10-14T03:08:51+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-14-p1",
+      "date": "2026-10-14",
+      "person": "p1",
+      "challengeId": 192,
+      "text": "Parler avec la voix de ton personnage préféré de ton livre.",
+      "status": "pending",
+      "assignedAt": "2026-10-15T02:27:36+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-14-p2",
+      "date": "2026-10-14",
+      "person": "p2",
+      "challengeId": 102,
+      "text": "Faire une battle de danse contre ton ombre.",
+      "status": "pending",
+      "assignedAt": "2026-10-15T02:27:36+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
