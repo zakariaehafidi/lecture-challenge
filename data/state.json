@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-16",
+  "lastProcessed": "2026-10-17",
   "people": [
     {
       "id": "p1",
@@ -473,6 +473,28 @@
       "text": "Faire un tuto pour plier une serviette en forme d'animal.",
       "status": "pending",
       "assignedAt": "2026-10-17T02:21:03+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-17-p1",
+      "date": "2026-10-17",
+      "person": "p1",
+      "challengeId": 39,
+      "text": "Faire 15 burpees en faisant un bruit d'animal à chaque saut.",
+      "status": "pending",
+      "assignedAt": "2026-10-18T01:58:11+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-17-p2",
+      "date": "2026-10-17",
+      "person": "p2",
+      "challengeId": 279,
+      "text": "Chanter une comptine avec un accent anglais.",
+      "status": "pending",
+      "assignedAt": "2026-10-18T01:58:11+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
