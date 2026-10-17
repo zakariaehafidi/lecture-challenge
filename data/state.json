@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-15",
+  "lastProcessed": "2026-10-16",
   "people": [
     {
       "id": "p1",
@@ -451,6 +451,28 @@
       "text": "Faire un documentaire de 30 secondes sur la vie secrète de tes chaussons.",
       "status": "pending",
       "assignedAt": "2026-10-16T02:18:13+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-16-p1",
+      "date": "2026-10-16",
+      "person": "p1",
+      "challengeId": 53,
+      "text": "Faire 25 fentes en racontant une blague.",
+      "status": "pending",
+      "assignedAt": "2026-10-17T02:21:03+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-16-p2",
+      "date": "2026-10-16",
+      "person": "p2",
+      "challengeId": 229,
+      "text": "Faire un tuto pour plier une serviette en forme d'animal.",
+      "status": "pending",
+      "assignedAt": "2026-10-17T02:21:03+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
