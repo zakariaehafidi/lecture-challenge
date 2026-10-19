@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-17",
+  "lastProcessed": "2026-10-18",
   "people": [
     {
       "id": "p1",
@@ -495,6 +495,28 @@
       "text": "Chanter une comptine avec un accent anglais.",
       "status": "pending",
       "assignedAt": "2026-10-18T01:58:11+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-18-p1",
+      "date": "2026-10-18",
+      "person": "p1",
+      "challengeId": 90,
+      "text": "Faire une chorégraphie avec seulement les mains, sur une musique.",
+      "status": "pending",
+      "assignedAt": "2026-10-19T02:08:59+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-18-p2",
+      "date": "2026-10-18",
+      "person": "p2",
+      "challengeId": 285,
+      "text": "Faire danser tes doigts sur une musique comme des petits danseurs.",
+      "status": "pending",
+      "assignedAt": "2026-10-19T02:08:59+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
