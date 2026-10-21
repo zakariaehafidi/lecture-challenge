@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-19",
+  "lastProcessed": "2026-10-20",
   "people": [
     {
       "id": "p1",
@@ -539,6 +539,28 @@
       "text": "Dessiner l'autre en 30 secondes et montrer le résultat.",
       "status": "pending",
       "assignedAt": "2026-10-20T03:02:48+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-20-p1",
+      "date": "2026-10-20",
+      "person": "p1",
+      "challengeId": 87,
+      "text": "Chanter une chanson dans une langue inventée.",
+      "status": "pending",
+      "assignedAt": "2026-10-21T02:32:56+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-20-p2",
+      "date": "2026-10-20",
+      "person": "p2",
+      "challengeId": 205,
+      "text": "Faire 15 squats en tenant un oreiller au-dessus de la tête.",
+      "status": "pending",
+      "assignedAt": "2026-10-21T02:32:56+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
