@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-20",
+  "lastProcessed": "2026-10-21",
   "people": [
     {
       "id": "p1",
@@ -561,6 +561,28 @@
       "text": "Faire 15 squats en tenant un oreiller au-dessus de la tête.",
       "status": "pending",
       "assignedAt": "2026-10-21T02:32:56+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-21-p1",
+      "date": "2026-10-21",
+      "person": "p1",
+      "challengeId": 279,
+      "text": "Chanter une comptine avec un accent anglais.",
+      "status": "pending",
+      "assignedAt": "2026-10-22T02:36:59+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-21-p2",
+      "date": "2026-10-21",
+      "person": "p2",
+      "challengeId": 159,
+      "text": "Raconter une histoire de 30 secondes uniquement avec des bruits, sans mots.",
+      "status": "pending",
+      "assignedAt": "2026-10-22T02:36:59+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
