@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-21",
+  "lastProcessed": "2026-10-22",
   "people": [
     {
       "id": "p1",
@@ -583,6 +583,28 @@
       "text": "Raconter une histoire de 30 secondes uniquement avec des bruits, sans mots.",
       "status": "pending",
       "assignedAt": "2026-10-22T02:36:59+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-22-p1",
+      "date": "2026-10-22",
+      "person": "p1",
+      "challengeId": 221,
+      "text": "Danser avec un balai comme partenaire.",
+      "status": "pending",
+      "assignedAt": "2026-10-23T02:34:50+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-22-p2",
+      "date": "2026-10-22",
+      "person": "p2",
+      "challengeId": 129,
+      "text": "Faire semblant d'être un prof qui fait l'appel d'une classe de peluches.",
+      "status": "pending",
+      "assignedAt": "2026-10-23T02:34:50+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
