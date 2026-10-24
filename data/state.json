@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-22",
+  "lastProcessed": "2026-10-23",
   "people": [
     {
       "id": "p1",
@@ -605,6 +605,28 @@
       "text": "Faire semblant d'être un prof qui fait l'appel d'une classe de peluches.",
       "status": "pending",
       "assignedAt": "2026-10-23T02:34:50+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-23-p1",
+      "date": "2026-10-23",
+      "person": "p1",
+      "challengeId": 166,
+      "text": "Te brosser les dents en faisant le flamant rose (sur un pied).",
+      "status": "pending",
+      "assignedAt": "2026-10-24T02:32:27+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-23-p2",
+      "date": "2026-10-23",
+      "person": "p2",
+      "challengeId": 286,
+      "text": "Raconter une histoire avec 5 mots donnés par l'autre.",
+      "status": "pending",
+      "assignedAt": "2026-10-24T02:32:27+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
