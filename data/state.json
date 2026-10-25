@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-23",
+  "lastProcessed": "2026-10-24",
   "people": [
     {
       "id": "p1",
@@ -627,6 +627,28 @@
       "text": "Raconter une histoire avec 5 mots donnés par l'autre.",
       "status": "pending",
       "assignedAt": "2026-10-24T02:32:27+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-24-p1",
+      "date": "2026-10-24",
+      "person": "p1",
+      "challengeId": 144,
+      "text": "Dire une phrase entière à l'envers : « revoir au, jour bon ».",
+      "status": "pending",
+      "assignedAt": "2026-10-25T02:15:25+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-24-p2",
+      "date": "2026-10-24",
+      "person": "p2",
+      "challengeId": 124,
+      "text": "Citer 10 fruits en 10 secondes.",
+      "status": "pending",
+      "assignedAt": "2026-10-25T02:15:25+02:00",
       "validatedAt": null,
       "validatedBy": null
     }
