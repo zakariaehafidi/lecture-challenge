@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-24",
+  "lastProcessed": "2026-10-25",
   "people": [
     {
       "id": "p1",
@@ -649,6 +649,28 @@
       "text": "Citer 10 fruits en 10 secondes.",
       "status": "pending",
       "assignedAt": "2026-10-25T02:15:25+02:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-25-p1",
+      "date": "2026-10-25",
+      "person": "p1",
+      "challengeId": 135,
+      "text": "Jouer un sketch où tu téléphones avec une banane.",
+      "status": "pending",
+      "assignedAt": "2026-10-26T01:10:03+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-25-p2",
+      "date": "2026-10-25",
+      "person": "p2",
+      "challengeId": 22,
+      "text": "Mettre tes chaussettes sur les mains et essayer d'ouvrir une bouteille.",
+      "status": "pending",
+      "assignedAt": "2026-10-26T01:10:03+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
