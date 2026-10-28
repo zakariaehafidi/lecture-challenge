@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-26",
+  "lastProcessed": "2026-10-27",
   "people": [
     {
       "id": "p1",
@@ -693,6 +693,28 @@
       "text": "Faire l'ange dans la neige… sur le tapis.",
       "status": "pending",
       "assignedAt": "2026-10-27T02:24:57+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-27-p1",
+      "date": "2026-10-27",
+      "person": "p1",
+      "challengeId": 257,
+      "text": "Essayer de chanter une chanson à l'envers.",
+      "status": "pending",
+      "assignedAt": "2026-10-28T02:12:25+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-27-p2",
+      "date": "2026-10-27",
+      "person": "p2",
+      "challengeId": 232,
+      "text": "Mimer que tu es coincé(e) dans une boîte invisible.",
+      "status": "pending",
+      "assignedAt": "2026-10-28T02:12:25+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
