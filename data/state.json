@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-27",
+  "lastProcessed": "2026-10-28",
   "people": [
     {
       "id": "p1",
@@ -715,6 +715,28 @@
       "text": "Mimer que tu es coincé(e) dans une boîte invisible.",
       "status": "pending",
       "assignedAt": "2026-10-28T02:12:25+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-28-p1",
+      "date": "2026-10-28",
+      "person": "p1",
+      "challengeId": 191,
+      "text": "Faire un tuto « comment faire un câlin à un coussin ».",
+      "status": "pending",
+      "assignedAt": "2026-10-29T02:44:30+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-28-p2",
+      "date": "2026-10-28",
+      "person": "p2",
+      "challengeId": 138,
+      "text": "Fixer ton reflet dans le miroir pendant 30 secondes sans rire.",
+      "status": "pending",
+      "assignedAt": "2026-10-29T02:44:30+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
