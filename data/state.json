@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-28",
+  "lastProcessed": "2026-10-29",
   "people": [
     {
       "id": "p1",
@@ -737,6 +737,28 @@
       "text": "Fixer ton reflet dans le miroir pendant 30 secondes sans rire.",
       "status": "pending",
       "assignedAt": "2026-10-29T02:44:30+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-29-p1",
+      "date": "2026-10-29",
+      "person": "p1",
+      "challengeId": 190,
+      "text": "Mimer 3 émotions : l'autre doit les deviner.",
+      "status": "pending",
+      "assignedAt": "2026-10-30T02:52:33+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-29-p2",
+      "date": "2026-10-29",
+      "person": "p2",
+      "challengeId": 5,
+      "text": "Faire un défilé de mode dans le salon avec une tenue composée uniquement de choses de la cuisine (tablier, torchon, gants…).",
+      "status": "pending",
+      "assignedAt": "2026-10-30T02:52:33+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
