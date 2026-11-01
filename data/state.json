@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-10-30",
+  "lastProcessed": "2026-10-31",
   "people": [
     {
       "id": "p1",
@@ -781,6 +781,28 @@
       "text": "Parler à une cuillère comme si c'était ta meilleure amie.",
       "status": "pending",
       "assignedAt": "2026-10-31T02:31:37+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-31-p1",
+      "date": "2026-10-31",
+      "person": "p1",
+      "challengeId": 201,
+      "text": "Faire un compliment à 3 objets de la maison.",
+      "status": "pending",
+      "assignedAt": "2026-11-01T02:00:19+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-10-31-p2",
+      "date": "2026-10-31",
+      "person": "p2",
+      "challengeId": 186,
+      "text": "Ranger ton bureau en 1 minute chrono.",
+      "status": "pending",
+      "assignedAt": "2026-11-01T02:00:19+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
