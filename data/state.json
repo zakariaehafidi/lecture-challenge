@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-01",
+  "lastProcessed": "2026-11-02",
   "people": [
     {
       "id": "p1",
@@ -825,6 +825,28 @@
       "text": "Danser avec un balai comme partenaire.",
       "status": "pending",
       "assignedAt": "2026-11-02T02:28:06+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-02-p1",
+      "date": "2026-11-02",
+      "person": "p1",
+      "challengeId": 128,
+      "text": "Dire 5 choses positives sur l'autre, face caméra.",
+      "status": "pending",
+      "assignedAt": "2026-11-03T04:26:23+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-02-p2",
+      "date": "2026-11-02",
+      "person": "p2",
+      "challengeId": 109,
+      "text": "Mimer un sport pendant 20 secondes, sans ballon ni équipement.",
+      "status": "pending",
+      "assignedAt": "2026-11-03T04:26:23+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
