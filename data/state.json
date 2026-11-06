@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-04",
+  "lastProcessed": "2026-11-05",
   "people": [
     {
       "id": "p1",
@@ -891,6 +891,28 @@
       "text": "Faire 15 pompes contre un mur en chantant une chanson de Noël.",
       "status": "pending",
       "assignedAt": "2026-11-05T03:17:12+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-05-p1",
+      "date": "2026-11-05",
+      "person": "p1",
+      "challengeId": 115,
+      "text": "Imiter ta propre voix quand tu étais petit(e).",
+      "status": "pending",
+      "assignedAt": "2026-11-06T03:16:50+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-05-p2",
+      "date": "2026-11-05",
+      "person": "p2",
+      "challengeId": 123,
+      "text": "Chanter une chanson avec un balai comme micro, comme dans un clip.",
+      "status": "pending",
+      "assignedAt": "2026-11-06T03:16:50+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
