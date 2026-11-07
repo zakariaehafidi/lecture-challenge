@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-05",
+  "lastProcessed": "2026-11-06",
   "people": [
     {
       "id": "p1",
@@ -913,6 +913,28 @@
       "text": "Chanter une chanson avec un balai comme micro, comme dans un clip.",
       "status": "pending",
       "assignedAt": "2026-11-06T03:16:50+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-06-p1",
+      "date": "2026-11-06",
+      "person": "p1",
+      "challengeId": 63,
+      "text": "Déclamer une tirade de 30 secondes comme un acteur de tragédie, sur le thème du lundi matin.",
+      "status": "pending",
+      "assignedAt": "2026-11-07T02:49:00+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-06-p2",
+      "date": "2026-11-06",
+      "person": "p2",
+      "challengeId": 77,
+      "text": "Dire « bonjour » dans 5 langues avec un accent exagéré pour chacune.",
+      "status": "pending",
+      "assignedAt": "2026-11-07T02:49:00+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
