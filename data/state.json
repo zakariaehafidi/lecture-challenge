@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-06",
+  "lastProcessed": "2026-11-07",
   "people": [
     {
       "id": "p1",
@@ -935,6 +935,28 @@
       "text": "Dire « bonjour » dans 5 langues avec un accent exagéré pour chacune.",
       "status": "pending",
       "assignedAt": "2026-11-07T02:49:00+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-07-p1",
+      "date": "2026-11-07",
+      "person": "p1",
+      "challengeId": 34,
+      "text": "Chanter « Au clair de la lune » avec une voix d'opéra.",
+      "status": "pending",
+      "assignedAt": "2026-11-08T02:19:22+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-07-p2",
+      "date": "2026-11-07",
+      "person": "p2",
+      "challengeId": 21,
+      "text": "Raconter ton petit-déjeuner comme un commentateur de match de foot.",
+      "status": "pending",
+      "assignedAt": "2026-11-08T02:19:22+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
