@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-07",
+  "lastProcessed": "2026-11-08",
   "people": [
     {
       "id": "p1",
@@ -957,6 +957,28 @@
       "text": "Raconter ton petit-déjeuner comme un commentateur de match de foot.",
       "status": "pending",
       "assignedAt": "2026-11-08T02:19:22+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-08-p1",
+      "date": "2026-11-08",
+      "person": "p1",
+      "challengeId": 276,
+      "text": "Inventer un slogan pour ta famille.",
+      "status": "pending",
+      "assignedAt": "2026-11-09T02:39:48+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-08-p2",
+      "date": "2026-11-08",
+      "person": "p2",
+      "challengeId": 12,
+      "text": "Te dessiner une moustache au feutre effaçable (ou au maquillage) et faire un discours sérieux de 30 secondes.",
+      "status": "pending",
+      "assignedAt": "2026-11-09T02:39:48+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
