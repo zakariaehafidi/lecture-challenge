@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-09",
+  "lastProcessed": "2026-11-10",
   "people": [
     {
       "id": "p1",
@@ -1001,6 +1001,28 @@
       "text": "Faire semblant d'être un chef cuisinier star qui prépare… une tartine.",
       "status": "pending",
       "assignedAt": "2026-11-10T05:03:34+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-10-p1",
+      "date": "2026-11-10",
+      "person": "p1",
+      "challengeId": 12,
+      "text": "Te dessiner une moustache au feutre effaçable (ou au maquillage) et faire un discours sérieux de 30 secondes.",
+      "status": "pending",
+      "assignedAt": "2026-11-11T02:51:49+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-10-p2",
+      "date": "2026-11-10",
+      "person": "p2",
+      "challengeId": 18,
+      "text": "Faire le tour de la maison comme un guide touristique, en présentant chaque pièce.",
+      "status": "pending",
+      "assignedAt": "2026-11-11T02:51:49+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
