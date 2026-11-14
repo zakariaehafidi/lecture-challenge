@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-12",
+  "lastProcessed": "2026-11-13",
   "people": [
     {
       "id": "p1",
@@ -1067,6 +1067,28 @@
       "text": "Présenter ton animal de compagnie imaginaire.",
       "status": "pending",
       "assignedAt": "2026-11-13T03:33:27+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-13-p1",
+      "date": "2026-11-13",
+      "person": "p1",
+      "challengeId": 71,
+      "text": "Faire 30 montées de genoux en criant « Allez, allez ! ».",
+      "status": "pending",
+      "assignedAt": "2026-11-14T03:16:18+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-13-p2",
+      "date": "2026-11-13",
+      "person": "p2",
+      "challengeId": 68,
+      "text": "Faire un karaoké d'une chanson de ton enfance.",
+      "status": "pending",
+      "assignedAt": "2026-11-14T03:16:18+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
