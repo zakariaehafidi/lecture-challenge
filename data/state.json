@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-13",
+  "lastProcessed": "2026-11-14",
   "people": [
     {
       "id": "p1",
@@ -1089,6 +1089,28 @@
       "text": "Faire un karaoké d'une chanson de ton enfance.",
       "status": "pending",
       "assignedAt": "2026-11-14T03:16:18+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-14-p1",
+      "date": "2026-11-14",
+      "person": "p1",
+      "challengeId": 95,
+      "text": "Faire une dégustation à l'aveugle de 3 aliments que tu aimes et deviner ce que c'est.",
+      "status": "pending",
+      "assignedAt": "2026-11-15T02:46:58+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-14-p2",
+      "date": "2026-11-14",
+      "person": "p2",
+      "challengeId": 3,
+      "text": "Présenter la météo de demain comme un vrai présentateur télé, pendant 1 minute.",
+      "status": "pending",
+      "assignedAt": "2026-11-15T02:46:58+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
