@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-16",
+  "lastProcessed": "2026-11-17",
   "people": [
     {
       "id": "p1",
@@ -1155,6 +1155,28 @@
       "text": "Essayer de siffler une chanson, même si tu ne sais pas siffler.",
       "status": "pending",
       "assignedAt": "2026-11-17T05:25:52+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-17-p1",
+      "date": "2026-11-17",
+      "person": "p1",
+      "challengeId": 141,
+      "text": "Chanter « Frère Jacques » en alternant une voix grave et une voix aiguë.",
+      "status": "pending",
+      "assignedAt": "2026-11-18T04:38:52+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-17-p2",
+      "date": "2026-11-17",
+      "person": "p2",
+      "challengeId": 15,
+      "text": "Mimer un métier pendant 30 secondes : l'autre doit deviner lequel.",
+      "status": "pending",
+      "assignedAt": "2026-11-18T04:38:52+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
