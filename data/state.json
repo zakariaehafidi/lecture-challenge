@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-20",
+  "lastProcessed": "2026-11-21",
   "people": [
     {
       "id": "p1",
@@ -1243,6 +1243,28 @@
       "text": "Faire un spectacle de marionnettes avec des chaussettes.",
       "status": "pending",
       "assignedAt": "2026-11-21T04:07:42+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-21-p1",
+      "date": "2026-11-21",
+      "person": "p1",
+      "challengeId": 288,
+      "text": "Chanter une chanson en changeant de voix à chaque phrase.",
+      "status": "pending",
+      "assignedAt": "2026-11-22T03:06:15+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-21-p2",
+      "date": "2026-11-21",
+      "person": "p2",
+      "challengeId": 194,
+      "text": "Faire le tour du salon avec un oreiller en équilibre sur la tête.",
+      "status": "pending",
+      "assignedAt": "2026-11-22T03:06:15+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
