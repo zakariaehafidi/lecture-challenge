@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-21",
+  "lastProcessed": "2026-11-22",
   "people": [
     {
       "id": "p1",
@@ -1265,6 +1265,28 @@
       "text": "Faire le tour du salon avec un oreiller en équilibre sur la tête.",
       "status": "pending",
       "assignedAt": "2026-11-22T03:06:15+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-22-p1",
+      "date": "2026-11-22",
+      "person": "p1",
+      "challengeId": 297,
+      "text": "Faire 10 squats avec un gobelet en plastique vide sur la tête.",
+      "status": "pending",
+      "assignedAt": "2026-11-23T03:33:56+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-22-p2",
+      "date": "2026-11-22",
+      "person": "p2",
+      "challengeId": 33,
+      "text": "Résumer le livre que tu lis en seulement 5 mots, puis en mimes.",
+      "status": "pending",
+      "assignedAt": "2026-11-23T03:33:56+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
