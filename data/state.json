@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-22",
+  "lastProcessed": "2026-11-23",
   "people": [
     {
       "id": "p1",
@@ -1287,6 +1287,28 @@
       "text": "Résumer le livre que tu lis en seulement 5 mots, puis en mimes.",
       "status": "pending",
       "assignedAt": "2026-11-23T03:33:56+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-23-p1",
+      "date": "2026-11-23",
+      "person": "p1",
+      "challengeId": 84,
+      "text": "Imiter un personnage de dessin animé sans dire lequel : l'autre doit deviner.",
+      "status": "pending",
+      "assignedAt": "2026-11-24T06:55:54+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-23-p2",
+      "date": "2026-11-23",
+      "person": "p2",
+      "challengeId": 67,
+      "text": "Expliquer les règles d'un jeu inventé avec une cuillère et un bouchon.",
+      "status": "pending",
+      "assignedAt": "2026-11-24T06:55:54+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
