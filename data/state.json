@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-23",
+  "lastProcessed": "2026-11-24",
   "people": [
     {
       "id": "p1",
@@ -1309,6 +1309,28 @@
       "text": "Expliquer les règles d'un jeu inventé avec une cuillère et un bouchon.",
       "status": "pending",
       "assignedAt": "2026-11-24T06:55:54+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-24-p1",
+      "date": "2026-11-24",
+      "person": "p1",
+      "challengeId": 10,
+      "text": "Faire 20 sauts en étoile en criant un mot différent à chaque saut.",
+      "status": "pending",
+      "assignedAt": "2026-11-25T05:51:21+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-24-p2",
+      "date": "2026-11-24",
+      "person": "p2",
+      "challengeId": 188,
+      "text": "Faire 3 grimaces différentes et donner un nom à chacune.",
+      "status": "pending",
+      "assignedAt": "2026-11-25T05:51:21+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
