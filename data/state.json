@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-24",
+  "lastProcessed": "2026-11-25",
   "people": [
     {
       "id": "p1",
@@ -1331,6 +1331,28 @@
       "text": "Faire 3 grimaces différentes et donner un nom à chacune.",
       "status": "pending",
       "assignedAt": "2026-11-25T05:51:21+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-25-p1",
+      "date": "2026-11-25",
+      "person": "p1",
+      "challengeId": 3,
+      "text": "Présenter la météo de demain comme un vrai présentateur télé, pendant 1 minute.",
+      "status": "pending",
+      "assignedAt": "2026-11-26T05:05:34+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-25-p2",
+      "date": "2026-11-25",
+      "person": "p2",
+      "challengeId": 224,
+      "text": "Chanter une chanson pendant des pompes contre le mur.",
+      "status": "pending",
+      "assignedAt": "2026-11-26T05:05:34+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
