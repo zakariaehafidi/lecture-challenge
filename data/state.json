@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-25",
+  "lastProcessed": "2026-11-26",
   "people": [
     {
       "id": "p1",
@@ -1353,6 +1353,28 @@
       "text": "Chanter une chanson pendant des pompes contre le mur.",
       "status": "pending",
       "assignedAt": "2026-11-26T05:05:34+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-26-p1",
+      "date": "2026-11-26",
+      "person": "p1",
+      "challengeId": 225,
+      "text": "Défiler en super-héros avec une serviette en guise de cape.",
+      "status": "pending",
+      "assignedAt": "2026-11-27T05:08:22+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-26-p2",
+      "date": "2026-11-26",
+      "person": "p2",
+      "challengeId": 37,
+      "text": "Faire une battle de grimaces avec ton reflet dans le miroir.",
+      "status": "pending",
+      "assignedAt": "2026-11-27T05:08:22+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
