@@ -1,7 +1,7 @@
 {
   "version": 1,
   "startDate": "2026-09-26",
-  "lastProcessed": "2026-11-26",
+  "lastProcessed": "2026-11-27",
   "people": [
     {
       "id": "p1",
@@ -1375,6 +1375,28 @@
       "text": "Faire une battle de grimaces avec ton reflet dans le miroir.",
       "status": "pending",
       "assignedAt": "2026-11-27T05:08:22+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-27-p1",
+      "date": "2026-11-27",
+      "person": "p1",
+      "challengeId": 242,
+      "text": "Faire semblant de nager dans le salon.",
+      "status": "pending",
+      "assignedAt": "2026-11-28T04:50:11+01:00",
+      "validatedAt": null,
+      "validatedBy": null
+    },
+    {
+      "id": "2026-11-27-p2",
+      "date": "2026-11-27",
+      "person": "p2",
+      "challengeId": 238,
+      "text": "Essayer le moonwalk pendant 10 secondes.",
+      "status": "pending",
+      "assignedAt": "2026-11-28T04:50:11+01:00",
       "validatedAt": null,
       "validatedBy": null
     }
